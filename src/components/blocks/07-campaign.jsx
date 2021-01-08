@@ -37,7 +37,7 @@ export default ({ slug }) => {
         </div>
 
         <div className="col-span-12 sm:col-span-6">
-          <h3 className="leading-tight uppercase font-bold text-md text-black">
+          <h3 className="leading-tight mb-2 uppercase font-bold text-md text-black">
             Themen sichtbar machen
           </h3>
           <div className="text-sm">
@@ -57,7 +57,7 @@ export default ({ slug }) => {
 
       
         <div className="col-span-12 sm:col-span-6">
-          <h3 className="leading-tight uppercase font-bold text-md text-black">
+          <h3 className="leading-tight mb-2 uppercase font-bold text-md text-black">
             Dezentrale Partizipation
           </h3>
           <div className="text-sm">
@@ -78,7 +78,7 @@ export default ({ slug }) => {
           <Image name="Plakate_03.jpg" />
         </div>
         <div className="col-span-12 sm:col-span-6">
-          <h3 className="leading-tight uppercase font-bold text-md text-black">
+          <h3 className="leading-tight mb-2 uppercase font-bold text-md text-black">
             Gesichter und Geschichten
           </h3>
           <div className="text-sm">
@@ -92,7 +92,7 @@ export default ({ slug }) => {
         {/* LOKALE ANBINDUNG */}
 
         <div className="col-span-12 sm:col-span-6">
-          <h3 className="leading-tight uppercase font-bold text-md text-black">
+          <h3 className="leading-tight mb-2 uppercase font-bold text-md text-black">
             Mitmachangebote und lokale Anbindung
           </h3>
           <div className="text-sm">
@@ -112,7 +112,7 @@ export default ({ slug }) => {
           <Image name="Demo_01.jpg" />
         </div>
         <div className="col-span-12 sm:col-span-6">
-          <h3 className="leading-tight uppercase font-bold text-md text-black">
+          <h3 className="leading-tight mb-2 uppercase font-bold text-md text-black">
             Mitmachangebote und lokale Anbindung
           </h3>
           <div className="text-sm">
