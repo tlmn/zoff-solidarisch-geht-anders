@@ -84,7 +84,7 @@ export default ({ slug }) => {
           <div className="text-sm">
             Mit Gesichtern und Geschichten schaffen wir eine authentische
             Erzählung. So zeigen wir, wie Solidarität im Alltag gelebt wird und
-            welche Forderungen sich auf.
+            welche Forderungen wir stellen.
           </div>
           <Image name="Zitat_01.jpg" />
         </div>
