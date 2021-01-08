@@ -4,11 +4,15 @@ import Stripe from "../stripe";
 
 export default ({ slug }) => {
   const supporters = [
-    "campact.png",
-    "demokratie.png",
-    "attac.png",
-    "naturfreunde.png",
-    "naturfreundejugend.png",
+    "Attac.jpg",
+    "Campact.jpg",
+    "DieOffeneGesellschaft.jpg",
+    "EndeGelaende.jpg",
+    "FridayForFuture.jpg",
+    "MehrDemokratie.jpg",
+    "NaturFreunde.jpg",
+    "Seebruecke.jpg",
+    "verdi.jpg",
   ];
   return (
     <div className="bg-white py-4" id={slug}>
@@ -22,7 +26,7 @@ export default ({ slug }) => {
               <Image
                 name={supporter}
                 style={{ width: "12rem" }}
-                className="inline-block"
+                className="inline-block mr-3"
               />
             ))}
           </div>
