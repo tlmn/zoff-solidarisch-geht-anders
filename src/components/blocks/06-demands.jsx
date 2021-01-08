@@ -4,7 +4,6 @@ import React from "react";
 import { colors } from "../../config/config";
 
 export default ({ slug }) => {
-  const bgColor = "green";
   const demands = [
     {
       color: "red",

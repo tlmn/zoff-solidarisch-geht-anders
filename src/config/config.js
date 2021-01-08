@@ -1,6 +1,6 @@
 export const menuItems = [
   { label: "Krise", slug: "krise" },
-  { label: "Forderungen", slug: "forderungen" },
+  { label: "Was wir wollen", slug: "was-wir-wollen" },
   { label: "Kampagne", slug: "kampagne" },
   { label: "Mitmachen", slug: "mitmachen" },
   { label: "Bündnis", slug: "buendnis" },

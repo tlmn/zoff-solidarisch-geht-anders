@@ -21,7 +21,7 @@ export default () => {
       <CTA slug="cta" />
       <Testimonials slug="testimonials" />
       <Opportunity />
-      <Demands slug="forderungen" />
+      <Demands slug="was-wir-wollen" />
       <Campaign slug="kampagne" />
       <TakeAction slug="mitmachen" />
       <Supporters slug="buendnis" />

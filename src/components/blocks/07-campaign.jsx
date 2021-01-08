@@ -2,108 +2,6 @@ import Image from "../image";
 import React from "react";
 import Stripe from "../stripe";
 export default ({ slug }) => {
-  const rows = [
-    {
-      type: "image",
-      content: {
-        fileName: "SGA_Plakat_01.png",
-      },
-    },
-    {
-      type: "text",
-      content: {
-        title: "Themen Sichbar machen",
-        text:
-          "Text Hub für Basic-Infos, Sharepics (Zitate, Zahlen & Fakten), Masken, Plakate, Uhr für verlorene Einnahmen ohne Reichensteuer Text Hub für Basic-Infos, Sharepics (Zitate, Zahlen &amp Fakten), Masken, Plakate, Uhr für verlorene Einnahmen ohne Reichensteuer",
-      },
-    },
-    {
-      type: "image",
-      content: {
-        fileName: "SGA_Plakat_02.png",
-      },
-    },
-    {
-      type: "image",
-      content: {
-        fileName: "SGA_Plakat_01.png",
-      },
-    },
-    {
-      type: "text",
-      content: {
-        title: "Dezentrale Partizipation",
-        text:
-          "Text Hub für Basic-Infos, Sharepics (Zitate, Zahlen & Fakten), Masken, Plakate, Uhr für verlorene Einnahmen ohne Reichensteuer Text Hub für Basic-Infos, Sharepics (Zitate, Zahlen &amp Fakten), Masken, Plakate, Uhr für verlorene Einnahmen ohne Reichensteuer",
-      },
-    },
-    {
-      type: "image",
-      content: {
-        fileName: "SGA_ShareP_01.png",
-      },
-    },
-    {
-      type: "image",
-      content: {
-        fileName: "SGA__Mobile_01.png",
-      },
-    },
-    {
-      type: "text",
-      content: {
-        title: "Mitmachangebot und Lokale Anbindung",
-        text:
-          "Text Hub für Basic-Infos, Sharepics (Zitate, Zahlen & Fakten), Masken, Plakate, Uhr für verlorene Einnahmen ohne Reichensteuer Text Hub für Basic-Infos, Sharepics (Zitate, Zahlen &amp Fakten), Masken, Plakate, Uhr für verlorene Einnahmen ohne Reichensteuer",
-      },
-    },
-    {
-      type: "text",
-      content: {
-        title: "Gesichter und Geschichten",
-        text:
-          "Text Hub für Basic-Infos, Sharepics (Zitate, Zahlen & Fakten), Masken, Plakate, Uhr für verlorene Einnahmen ohne Reichensteuer Text Hub für Basic-Infos, Sharepics (Zitate, Zahlen &amp Fakten), Masken, Plakate, Uhr für verlorene Einnahmen ohne Reichensteuer",
-      },
-    },
-    {
-      type: "image",
-      content: {
-        fileName: "SGA_Zitat_01.png",
-      },
-    },
-    {
-      type: "image",
-      content: {
-        fileName: "SGA_Insta_01.png",
-      },
-    },
-    {
-      type: "text",
-      content: {
-        title: "Corona und Digitale angebot",
-        text:
-          "Text Hub für Basic-Infos, Sharepics (Zitate, Zahlen & Fakten), Masken, Plakate, Uhr für verlorene Einnahmen ohne Reichensteuer Text Hub für Basic-Infos, Sharepics (Zitate, Zahlen &amp Fakten), Masken, Plakate, Uhr für verlorene Einnahmen ohne Reichensteuer",
-      },
-    },
-    {
-      type: "text",
-      content: {
-        title: "Intervention",
-        text:
-          "Text Hub für Basic-Infos, Sharepics (Zitate, Zahlen & Fakten), Masken, Plakate, Uhr für verlorene Einnahmen ohne Reichensteuer Text Hub für Basic-Infos, Sharepics (Zitate, Zahlen &amp Fakten), Masken, Plakate, Uhr für verlorene Einnahmen ohne Reichensteuer",
-      },
-    },
-    { type: "image", content: { fileName: "SGA_WahlP_01.png" } },
-    { type: "image", content: { fileName: "SGA_Balkon_01.png" } },
-    {
-      type: "text",
-      content: {
-        title: "Bunt, divers, kämperisch",
-        text:
-          "Text Hub für Basic-Infos, Sharepics (Zitate, Zahlen & Fakten), Masken, Plakate, Uhr für verlorene Einnahmen ohne Reichensteuer Text Hub für Basic-Infos, Sharepics (Zitate, Zahlen &amp Fakten), Masken, Plakate, Uhr für verlorene Einnahmen ohne Reichensteuer",
-      },
-    },
-  ];
   return (
     <div className="bg-white py-4" id={slug}>
       <div className="container grid-12">
@@ -131,29 +29,103 @@ export default ({ slug }) => {
             </Stripe>
           </div>
         </div>
-        <div className="col-span-10 col-start-2 leading-larger text-sm">
-          Nur simulation Intro Text Hub für Basic-Infos, Sharepics (Zitate,
-          Zahlen &amp; Fakten), Masken, Plakate, Uhr für verlorene Einnahmen
-          ohne Reichensteuer
+
+        {/* THEMEN SICHTBAR MACHEN */}
+
+        <div className="col-span-12 sm:col-span-6">
+          <Image name="Plakate_01.jpg" className="" />
         </div>
-        {rows.map((row) =>
-          row.type === "text" ? (
-            <div className="col-span-6">
-              <h3
-                className="uppercase font-bold text-md text-black"
-                dangerouslySetInnerHTML={{ __html: row.content.title }}
-              />
-              <div
-                className="text-sm"
-                dangerouslySetInnerHTML={{ __html: row.content.text }}
-              />
-            </div>
-          ) : (
-            <div className="col-span-6">
-              <Image name={row.content.fileName} className="max-h-full" />
-            </div>
-          )
-        )}
+
+        <div className="col-span-12 sm:col-span-6">
+          <h3 className="uppercase font-bold text-md text-black">
+            Themen sichtbar machen
+          </h3>
+          <div className="text-sm">
+            Die Folgen von Krisen haben viele Facetten. Sie wirken
+            unterschiedlich in verschiedenen Lebensbereichen und
+            gesellschaftlichen Gruppen. Diese Unterschiedlichkeit der Probleme
+            und Themen wollen wir sichtbar machen.
+          </div>
+          <Image name="Flyers_01.jpg" />
+        </div>
+
+        <div className="col-span-12">
+          <Image name="Plakate_02.jpg" />
+        </div>
+
+        {/* DIGITALE ANGEBOTE & TOOLS */}
+
+      
+        <div className="col-span-12 sm:col-span-6">
+          <h3 className="uppercase font-bold text-md text-black">
+            Dezentrale Partizipation
+          </h3>
+          <div className="text-sm">
+            Besonders in Zeiten von Social Distancing muss Partizipation neue
+            Formen finden. Dafür legen wir den Schwerpunkt auf Materialien und
+            Tools, die dezentral oder online verteilt werden.
+          </div>
+          <Image name="ShareP_01.jpg" />
+        </div>
+        <div className="col-span-12 sm:col-span-6">
+          <Image name="Instagram_01.jpg" />
+        </div>
+      
+
+        {/* GESICHTER UND GESCHICHTEN */}
+
+        <div className="col-span-12 sm:col-span-6">
+          <Image name="Plakate_03.jpg" />
+        </div>
+        <div className="col-span-12 sm:col-span-6">
+          <h3 className="uppercase font-bold text-md text-black">
+            Gesichter und Geschichten
+          </h3>
+          <div className="text-sm">
+            Mit Gesichtern und Geschichten schaffen wir eine authentische
+            Erzählung. So zeigen wir, wie Solidarität im Alltag gelebt wird und
+            welche Forderungen sich auf.
+          </div>
+          <Image name="Zitat_01.jpg" />
+        </div>
+
+        {/* LOKALE ANBINDUNG */}
+
+        <div className="col-span-12 sm:col-span-6">
+          <h3 className="uppercase font-bold text-md text-black">
+            Mitmachangebote und lokale Anbindung
+          </h3>
+          <div className="text-sm">
+            Unsere Dachkampagne vereint verschiedene Strömungen und Interessen.
+            Diese Bündnis-Stärke wollen wir nutzen. Über lokale Angebote soll
+            eine lebendige Anbindung an Kämpfe vor Ort entstehen.
+          </div>
+          <Image name="Chat_01.jpg" />
+        </div>
+        <div className="col-span-12 sm:col-span-6">
+          <Image name="Mobile_01.jpg" />
+        </div>
+
+        {/* LOKALE ANBINDUNG */}
+
+        <div className="col-span-12 sm:col-span-6">
+          <Image name="Demo_01.jpg" />
+        </div>
+        <div className="col-span-12 sm:col-span-6">
+          <h3 className="uppercase font-bold text-md text-black">
+            Mitmachangebote und lokale Anbindung
+          </h3>
+          <div className="text-sm">
+            Unsere Dachkampagne vereint verschiedene Strömungen und Interessen.
+            Diese Bündnis-Stärke wollen wir nutzen. Über lokale Angebote soll
+            eine lebendige Anbindung an Kämpfe vor Ort entstehen.
+          </div>
+          <Image name="Zitat_01.jpg" />
+        </div>
+
+        <div className="col-span-12">
+          <Image name="Demo_02.jpg" />
+        </div>
       </div>
     </div>
   );

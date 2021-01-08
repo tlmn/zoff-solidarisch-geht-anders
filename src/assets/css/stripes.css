@@ -1,9 +1,10 @@
 .stripe::before {
   @apply bg-white;
   @apply w-full;
-  @apply inline-block;
+  @apply inline;
   content: " ";
   @apply absolute;
+  box-decoration-break: clone;
 }
 .stripe {
   @apply relative;

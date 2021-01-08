@@ -9,7 +9,7 @@ export default () => (
         <li className="inline mx-1">
           <AnchorLink
             href={`#${item.slug}`}
-            className="px-2 py-1 rounded-lg uppercase hover:bg-white hover:text-red text-black font-bold transitions-all duration-200 ease-all"
+            className="px-2 py-1 rounded-lg uppercase bg-opacity-75 bg-white hover:text-red text-black font-bold transitions-all duration-200 ease-all"
           >
             {item.label}
           </AnchorLink>
