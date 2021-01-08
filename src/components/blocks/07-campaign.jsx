@@ -120,7 +120,6 @@ export default ({ slug }) => {
             Diese Bündnis-Stärke wollen wir nutzen. Über lokale Angebote soll
             eine lebendige Anbindung an Kämpfe vor Ort entstehen.
           </div>
-          <Image name="Zitat_01.jpg" />
         </div>
 
         <div className="col-span-12">
