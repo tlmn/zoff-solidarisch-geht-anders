@@ -4,6 +4,7 @@ import Demands from "../components/blocks/06-demands";
 import Footer from "../components/blocks/00-footer";
 import Intro from "../components/blocks/02-intro";
 import Landing from "../components/blocks/01-landing";
+import Layout from "../components/layout";
 import Menu from "../components/blocks/00-menu";
 import Opportunity from "../components/blocks/05-opportunity";
 import React from "react";
@@ -13,7 +14,7 @@ import Testimonials from "../components/blocks/04-testimonials";
 
 export default () => {
   return (
-    <>
+    <Layout>
       <Menu />
       <Landing slug="" />
       <Intro slug="krise" />
@@ -25,6 +26,6 @@ export default () => {
       <TakeAction slug="mitmachen" />
       <Supporters slug="traegerkreis" />
       <Footer />
-    </>
+    </Layout>
   );
 };

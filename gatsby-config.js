@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    name: "Zusammen tun!",
-    title: "Zusammen tun!",
+    name: "Solidarisch geht anders!",
+    title: "Solidarisch geht anders!",
   },
   plugins: [
     "gatsby-plugin-resolve-src",
@@ -9,6 +9,7 @@ module.exports = {
     "gatsby-plugin-postcss",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -19,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Zusammen tun!`,
-        short_name: `Zusammen tun!`,
+        name: `Solidarisch geht anders!`,
+        short_name: `Solidarisch geht anders!`,
         start_url: `/`,
         background_color: `#fdd816`,
         theme_color: `#fdd816`,
