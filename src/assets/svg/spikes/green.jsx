@@ -1,0 +1,52 @@
+import React from "react";
+
+export default () => (
+  <svg
+  width="200"
+    viewBox="0 0 826 468"
+    xmlns="http://www.w3.org/2000/svg"
+    className="absolute"
+  >
+    <g filter="url(#filter0_d)">
+      <path
+        d="M757.708 0.913009L9.86908 195.822L175.557 437.477L757.708 0.913009Z"
+        fill="#56E6A1"
+      />
+    </g>
+    <defs>
+      <filter
+        id="filter0_d"
+        x="0.344727"
+        y="0.913086"
+        width="825.465"
+        height="466.64"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+        />
+        <feOffset dx="4" dy="4" />
+        <feGaussianBlur stdDeviation="2" />
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.26 0"
+        />
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow"
+        />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect1_dropShadow"
+          result="shape"
+        />
+      </filter>
+    </defs>
+  </svg>
+);

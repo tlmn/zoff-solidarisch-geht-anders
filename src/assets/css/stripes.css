@@ -1,0 +1,10 @@
+.stripe::before {
+  @apply bg-white;
+  @apply w-full;
+  @apply inline-block;
+  content: " ";
+  @apply absolute;
+}
+.stripe {
+  @apply relative;
+}

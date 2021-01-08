@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@import "./fonts.css";
+@import "./stripes.css";
+
+.grid-12 {
+  @apply grid-cols-12;
+  @apply gap-3;
+  @apply grid;
+  @apply row-gap-2;
+}
