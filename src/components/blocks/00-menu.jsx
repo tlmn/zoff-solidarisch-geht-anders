@@ -3,7 +3,10 @@ import React from "react";
 import menuItems from "../../config/config";
 
 export default () => (
-  <div className="fixed z-50 w-full flex justify-center bg-red">
+  <div
+    className="fixed w-full flex justify-center sm:bg-red sm:top-0"
+    style={{ zIndex: 1000 }}
+  >
     <ul className="my-2">
       {menuItems.map((item) => (
         <li className="inline mx-1">
