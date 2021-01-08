@@ -63,6 +63,7 @@ module.exports = {
       md: "32px",
       lg: "38px",
       xl: "48px",
+      xxl: "72px",
     },
     cursor: {
       auto: "auto",
