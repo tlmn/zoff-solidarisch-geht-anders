@@ -3,7 +3,7 @@ export const menuItems = [
   { label: "Forderungen", slug: "forderungen" },
   { label: "Kampagne", slug: "kampagne" },
   { label: "Mitmachen", slug: "mitmachen" },
-  { label: "Trägerkreis", slug: "traegerkreis" },
+  { label: "Bündnis", slug: "buendnis" },
 ];
 
 export const colors = {

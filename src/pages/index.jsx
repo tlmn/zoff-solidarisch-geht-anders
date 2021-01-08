@@ -24,7 +24,7 @@ export default () => {
       <Demands slug="forderungen" />
       <Campaign slug="kampagne" />
       <TakeAction slug="mitmachen" />
-      <Supporters slug="traegerkreis" />
+      <Supporters slug="buendnis" />
       <Footer />
     </Layout>
   );
