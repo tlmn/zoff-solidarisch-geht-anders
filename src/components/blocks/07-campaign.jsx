@@ -106,24 +106,38 @@ export default ({ slug }) => {
           <Image name="Mobile_01.jpg" />
         </div>
 
-        {/* LOKALE ANBINDUNG */}
+        {/* REGIONALE AKTIVITÄTEN */}
 
         <div className="col-span-12 sm:col-span-6">
           <Image name="Demo_01.jpg" />
         </div>
         <div className="col-span-12 sm:col-span-6">
           <h3 className="leading-tight mb-2 uppercase font-bold text-md text-black">
-            Mitmachangebote und lokale Anbindung
+            Regionale Aktivitäten
           </h3>
           <div className="text-sm">
-            Unsere Dachkampagne vereint verschiedene Strömungen und Interessen.
-            Diese Bündnis-Stärke wollen wir nutzen. Über lokale Angebote soll
-            eine lebendige Anbindung an Kämpfe vor Ort entstehen.
+            Text dazu
           </div>
         </div>
 
         <div className="col-span-12">
           <Image name="Demo_02.jpg" />
+        </div>
+
+
+        {/* REGIONALE AKTIVITÄTEN */}
+
+     
+        <div className="col-span-12 sm:col-span-6">
+          <h3 className="leading-tight mb-2 uppercase font-bold text-md text-black">
+            Sichtbarkeit bei laufenden Aktionen
+          </h3>
+          <div className="text-sm">
+            Text dazu
+          </div>
+        </div>
+        <div className="col-span-12 sm:col-span-6">
+          <Image name="Demo_03.jpg" />
         </div>
       </div>
     </div>
