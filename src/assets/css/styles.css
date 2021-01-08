@@ -9,5 +9,5 @@
   @apply grid-cols-12;
   @apply gap-3;
   @apply grid;
-  @apply row-gap-2;
+  @apply row-gap-3;
 }
