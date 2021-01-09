@@ -30,7 +30,7 @@ export default ({ slug }) => {
     },
     {
       color: "blue",
-      title: "Klimakrise kennt keinen Lockdown",
+      title: "Die Klimakrise kennt keinen Lockdown",
       intro:
         "Um die sozialen Folgen der Corona-Krise abzufedern, greift der Staat der Wirtschaft unter die Arme. Doch die Rettungspakete drohen die Klimakrise weiter anzuheizen, statt den dringend nötigen sozialen und ökologischen Umbau von Wirtschaft und Gesellschaft voranzutreiben. Klimaschutz ist immer eine Frage der Gerechtigkeit. Denn der Klimawandel trifft diejenigen am härtesten, die ihn am wenigsten zu verantworten haben. Sorgen wir uns um das Klima, die kommenden Generationen und die Menschen im Globalen Süden! Für Klimagerechtigkeit braucht es solidarische Lösungen!",
       items: [
