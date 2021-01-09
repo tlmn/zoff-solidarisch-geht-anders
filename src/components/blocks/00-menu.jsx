@@ -17,7 +17,7 @@ export default () => {
           backdropFilter: "blur(3px)",
         }}
       >
-        <div className="bg-blue container m-4 p-3 flex justify-center flex-row items-center grid-12">
+        <div className="bg-blue border-white border-2 rounded-xl container m-4 p-3 flex justify-center flex-row items-center grid-12">
           <div className="col-span-12 sm:col-span-10 sm:col-start-2">
             <h3 className="leading-tight mb-2 uppercase font-bold text-md text-white">
               Disclaimer
