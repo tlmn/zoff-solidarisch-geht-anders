@@ -5,29 +5,46 @@ export default ({ slug }) => {
   return (
     <div className="bg-white py-4" id={slug}>
       <div className="container grid-12">
-        <div className="col-span-12">
-          <div className="col-span-10 text-lg uppercase font-bold flex justify-end">
-            <Stripe fillColor="blue" textColor="white" rotationDeg="1.5">
-              Warum eine Kampagne?
-            </Stripe>
-          </div>
+        <div className="col-span-10 text-lg uppercase font-bold">
+          <Stripe fillColor="red" textColor="white" rotationDeg="1.5">
+            Die Kampagne
+          </Stripe>
         </div>
-        <div className="col-span-10 col-start-2 leading-larger text-sm">
-          Wir haben Solidarität verlernt: Wo nur noch wirtschaftlich gedacht
-          wird, ist es schwer füreinander einzustehen. Dabei brauchen die
-          aktuellen Krisen um so mehr gemeinschaftliche Antworten. Aber wenn wir
-          der Zukunft eine Vision geben, können wir gemeinsam eine gerechtere
-          und offene Gesellschaft gestalten! <br />
-          Um diese Vision zu entwickeln und zu tragen, wollen Gesichter und
-          Geschichten solidarischen Lebens zeigen und erzählen. So schaffen wir
-          Raum und Bewusstsein, um Solidarität zu denken und zu leben.
+        <div className="col-span-9 col-start-3 text-sm">
+          Die Aktions-Bündnis bietet viele Möglichkeiten zum Mitmachen von
+          Personen:
+          <ul className="list-disc pl-3">
+            <li>
+              Material und Online-Tools: Wir zeigen, was Solidarität ist, was
+              wir wollen und fordern.
+            </li>
+            <li>
+              Gesichter und Geschichten: Wir zeigen, wie Solidarität im Alltag
+              gelebt wird.
+            </li>
+            <li>
+              Sich vor Ort zusammentun: Wir erleichtern den Anschluss an
+              Regionalgruppen.
+            </li>
+            <li>
+              Aktivitäten der Kampagne: Das Bündnis geht auf die Straße
+              Gleichzeitig ist die Kampagne ein Dach für sowieso geplante
+              Demonstrationen und Aktionen der Bündnis-Organisationen.
+            </li>
+            <li>
+              Sie positionieren sich damit gemeinsam, für welche Solidarität sie
+              streiten und machen sich gemeinsam hörbar.
+            </li>
+            <li>
+              Organisationen gehen ins Bündnis: Ein Dach für eigene Kampagnen
+            </li>
+          </ul>
         </div>
-        <div className="col-span-12">
-          <div className="col-span-10 text-lg uppercase font-bold">
-            <Stripe fillColor="red" textColor="white" rotationDeg="1.5">
-              Kampagnen-Skizze
-            </Stripe>
-          </div>
+
+        <div className="col-span-10 text-lg uppercase font-bold">
+          <Stripe fillColor="green" textColor="white" rotationDeg="1.5">
+            Mitmachen
+          </Stripe>
         </div>
 
         {/* THEMEN SICHTBAR MACHEN */}
@@ -38,13 +55,12 @@ export default ({ slug }) => {
 
         <div className="col-span-12 sm:col-span-6">
           <h3 className="leading-tight mb-2 uppercase font-bold text-md text-black">
-            Themen sichtbar machen
+            PLAKATE, FLYER, STICKER &amp; CO
           </h3>
           <div className="text-sm">
-            Die Folgen von Krisen haben viele Facetten. Sie wirken
-            unterschiedlich in verschiedenen Lebensbereichen und
-            gesellschaftlichen Gruppen. Diese Unterschiedlichkeit der Probleme
-            und Themen wollen wir sichtbar machen.
+            Was wollen wir konkret? Wie geht Solidarität? Wofür streiten wir -
+            und wogegen? Das machen wir durch Plakate, Flyer, Symbole, Sticker
+            und anderes Material verständlich.
           </div>
           <Image name="Flyers_01.jpg" />
         </div>
@@ -55,22 +71,19 @@ export default ({ slug }) => {
 
         {/* DIGITALE ANGEBOTE & TOOLS */}
 
-      
         <div className="col-span-12 sm:col-span-6">
           <h3 className="leading-tight mb-2 uppercase font-bold text-md text-black">
-            Dezentrale Partizipation
+            ONLINE-TOOLS
           </h3>
           <div className="text-sm">
-            Besonders in Zeiten von Social Distancing muss Partizipation neue
-            Formen finden. Dafür legen wir den Schwerpunkt auf Materialien und
-            Tools, die dezentral oder online verteilt werden.
+            Besonders in der Coronazeit finden wir neue Formen zum Mitmachen:
+            Social Media-Kampagnen, ein Sharepic-Generator, und vieles mehr.
           </div>
           <Image name="ShareP_01.jpg" />
         </div>
         <div className="col-span-12 sm:col-span-6">
           <Image name="Instagram_01.jpg" />
         </div>
-      
 
         {/* GESICHTER UND GESCHICHTEN */}
 
@@ -82,9 +95,9 @@ export default ({ slug }) => {
             Gesichter und Geschichten
           </h3>
           <div className="text-sm">
-            Mit Gesichtern und Geschichten schaffen wir eine authentische
-            Erzählung. So zeigen wir, wie Solidarität im Alltag gelebt wird und
-            welche Forderungen wir stellen.
+            Unser Kampf für eine gerechtere und ökolögische Zukunft ist konkret.
+            Unsere Ziele und Forderungen lassen sich an Geschichten und
+            Gesichtern festmachen.
           </div>
           <Image name="Zitat_01.jpg" />
         </div>
@@ -93,12 +106,12 @@ export default ({ slug }) => {
 
         <div className="col-span-12 sm:col-span-6">
           <h3 className="leading-tight mb-2 uppercase font-bold text-md text-black">
-            Mitmachangebote und lokale Anbindung
+            Sich vor Ort zusammentun
           </h3>
           <div className="text-sm">
-            Unsere Dachkampagne vereint verschiedene Strömungen und Interessen.
-            Diese Bündnis-Stärke wollen wir nutzen. Über lokale Angebote soll
-            eine lebendige Anbindung an Kämpfe vor Ort entstehen.
+            Mehrere Organisationen im Kampagnen-Bündnis haben sehr aktive
+            Regionalgruppen. Durch Ansprechpersonen und Tools erleichtern wir
+            es, sich zu organisieren und zu vernetzen.
           </div>
           <Image name="Chat_01.jpg" />
         </div>
@@ -113,10 +126,11 @@ export default ({ slug }) => {
         </div>
         <div className="col-span-12 sm:col-span-6">
           <h3 className="leading-tight mb-2 uppercase font-bold text-md text-black">
-            Regionale Aktivitäten
+            Das Bündnis geht auf die Straße
           </h3>
           <div className="text-sm">
-            Text dazu
+            Als Kampagnen-Bündnis rufen wir zu regionalen oder überregionalen,
+            corona-verantwortbaren Kundgebungen oder Aktionstagen auf
           </div>
         </div>
 
@@ -124,20 +138,20 @@ export default ({ slug }) => {
           <Image name="Demo_02.jpg" />
         </div>
 
-
         {/* REGIONALE AKTIVITÄTEN */}
-
-     
-        <div className="col-span-12 sm:col-span-6">
-          <h3 className="leading-tight mb-2 uppercase font-bold text-md text-black">
-            Sichtbarkeit bei laufenden Aktionen
-          </h3>
-          <div className="text-sm">
-            Text dazu
-          </div>
+        <div className="col-span-10 text-lg uppercase font-bold">
+          <Stripe fillColor="green" textColor="white" rotationDeg="1.5">
+            DIE KAMPAGNE ALS DACH FÜR EURE DEMOS UND AKTIONEN
+          </Stripe>
         </div>
-        <div className="col-span-12 sm:col-span-6">
-          <Image name="Demo_03.jpg" />
+        <div className="col-span-9 col-start-3 text-sm">
+          <div className="text-sm">
+            Das Kampagne-Bündnis vereint verschiedener Organisationen,
+            Bewegungen und Netzwerke. Wir beziehen unsere eigenen Kampagnen und
+            Mobilisierungen auf eine gemeinsame Message, machen Solidarität
+            konkret an gemeinsamen Zielen. Wir verabreden unser Timing und einen
+            gemeinsamen Aktionsrahmen.
+          </div>
         </div>
       </div>
     </div>

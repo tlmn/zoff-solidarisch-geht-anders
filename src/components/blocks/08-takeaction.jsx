@@ -16,14 +16,20 @@ export default ({ slug }) => {
             </h2>
           </div>
           <div className="col-span-10 col-start-2 leading-larger text-sm text-white">
-            Klimakrise, Mietenwahnsinn oder Flucht: Die Corona-Pandemie wirkt
-            wie ein Brandbeschleuniger für Ungerechtigkeiten und Probleme. Doch
-            gemeinsam können wir Krisen überwinden und statt gegeneinander,
-            miteinander Lösungen finden und neue Wege gehen. Viele Menschen
-            setzen sich schon jetzt für eine gerechtere und solidarische
-            Gesellschaft ein. Dieser Beitrag ist wichtig, aber wir brauchen
-            langfristige politische Antworten, die das Gegeneinander beenden und
-            Raum für Solidarität schaffen. Wie geht solidarisch?
+            Über unsere Kampagnenwebseite und die sozialen Medien habt ihr die
+            Möglichkeit, euh über geplante Aktivitäten zu informieren und euch
+            diesen anzuschließen.
+            <ul className="list-disc pl-3 my-3">
+              <li>Bestelle Material</li>
+              <li>Nutze unsere digitalen Tools</li>
+              <li>Werde aktiv in einer lokalen Gruppe in Deiner Nähe!</li>
+              <li>Erhalte unseren Kampagnen-Newsletter </li>
+            </ul>
+            Organisationen, die dem Kampagnen-Bündnis beitreten wollen,
+            schreiben bitte an: Kontaktadresse des Bündnisses:{" "}
+            <a href="mailto:sozoekocorona-info@riseup.net">
+              sozoekocorona-info@riseup.net
+            </a>
           </div>
         </div>
       </div>

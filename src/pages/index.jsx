@@ -17,13 +17,13 @@ export default () => {
     <Layout>
       <Menu />
       <Landing slug="" />
-      <Intro slug="krise" />
+      <Intro slug="krise-und-solidaritat" />
       <CTA slug="cta" />
       <Testimonials slug="testimonials" />
-      <Opportunity />
-      <Demands slug="was-wir-wollen" />
+      <Opportunity slug="was-wir-wollen"/>
+      <Demands />
       <Campaign slug="kampagne" />
-      <TakeAction slug="mitmachen" />
+      <TakeAction slug="kontakt-und-info" />
       <Supporters slug="buendnis" />
       <Footer />
     </Layout>

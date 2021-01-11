@@ -20,10 +20,10 @@ export default ({ slug }) => (
               }}
             />
             <span className="text-lg xxl:text-xxl text-white z-20 absolute bottom-0 left-0 w-1/2 ml-3 mb-3">
-              Wir brauchen keine Klatscherei, sondern mehr Personal, bessere
-              Gehälter, ganz einfach eine{" "}
+              Applaus für Pflege reicht nicht. Wir brauchen mehr Personal,
+              bessere Gehälter,
               <Stripe fillColor="red" textColor="white" rotationDeg="-1">
-                radikal andere Gesundheitspolitik!
+                eine radikal andere Gesundheitspolitik!
               </Stripe>
             </span>
           </div>
@@ -40,10 +40,11 @@ export default ({ slug }) => (
               }}
             />
             <span className="text-lg xxl:text-xxl  text-white z-20 absolute bottom-0 left-0 w-1/2 ml-3 mb-3">
-              Wir brauchen keine Klatscherei, sondern mehr Personal, bessere
-              Gehälter, ganz einfach eine{" "}
+              Wir fliehen aus Verfolgung, Hunger oder Krieg, aber Europa
+              schottet sich ab.
               <Stripe fillColor="red" textColor="white" rotationDeg="-1">
-                radikal andere Gesundheitspolitik!
+                Für sichere Fluchtwege statt unmenschlicher Lager, für Recht auf
+                Asyl!
               </Stripe>
             </span>
           </div>
@@ -60,9 +61,10 @@ export default ({ slug }) => (
               }}
             />
             <span className="text-lg xxl:text-xxl text-white z-20 absolute bottom-0 left-0 w-1/2 ml-3 mb-3">
-              Systemrelevant aber prekär, flexibel und unterbezahlt.
+              Wir Verkäuferinnen sind super-relevant, unsere Arbeitsplätze aber
+              unterbezahlt und oft unsicher.
               <Stripe fillColor="red" textColor="white" rotationDeg="-1">
-                Faire Bezahlung statt leerer Worte!
+                Fairer Tariflohn statt leerer Worte!
               </Stripe>
             </span>
           </div>

@@ -9,9 +9,9 @@ export default ({ slug }) => {
       color: "red",
       title: "Gesundheit für alle!",
       intro:
-        "Gesundheit ist öffentliche Aufgabe, keine Ware. Sie steht für viele Bereiche, die dem Markt entzogen werden müssen, weil er sie nicht regelt. Die Coronakrise zeigt das überdeutlich, mit fehlendem Pflegepersonal, mangelnder Ausrüstung, in vielen Ländern kaputtgesparten Gesundheitssystemen und Impfungen zuerst nur für reiche Länder. Das Gleiche gilt für Kitas, Schulen, Sozialarbeit: Zukunftsrelevant sind Sorge- und Dienstleistungsberufe, oft von Frauen* ausgeübt. Diese Arbeit braucht materielle Aufwertung - Applaus reicht nicht",
+        "Gesundheit ist öffentliche Aufgabe, keine Ware. Sie steht für viele Bereiche, die dem Markt entzogen werden müssen, weil er sie nicht regelt. Die Coronakrise zeigt das überdeutlich, mit fehlendem Pflegepersonal, mangelnder Ausrüstung, in vielen Ländern kaputtgesparten bzw. privatisierten Gesundheitssystemen. Impfstoff gibt es zuerst nur für reiche Länder, Medikamente und Intensivmedizin fehlen oft im Globalen Süden. Für ein solidarisches Gesundheitssystem - Applaus reicht nicht!",
       items: [
-        "Mehr Personal und gute Gehälter in Pflege und Kitas.",
+        "Mehr Personal und höhere Gehälter in Pflege und Kitas",
         "Bürgerversicherung statt Zweiklassenmedizin",
         "Öffentliche Krankenhausfinanzierung statt Privatisierung und Fallpauschalen",
         "Globale Sicherung und Patentfreiheit für lebenswichtige Impfstoffe und Medikamente",
@@ -19,12 +19,13 @@ export default ({ slug }) => {
     },
     {
       color: "green",
-      title: "Sozialer Zusammenhalt",
+      title: "Materielle Sicherheit",
       intro:
-        "Die Pandemie verursacht und verschärft wirtschaftliche Not vieler Menschen, in reichen Ländern und drastischer im Globalen Süden. Und nach Billionen-Wirtschaftsförderung droht die nächste Sparwelle. Nötig sind jetzt massive Investitionen in steuerfinanzierte Infrastruktur wie Schulen und Büchereien, städtischen Wohnungsbau und ÖPNV, die allen Menschen zugute kommt. Nötig ist Umverteilung von sehr hohen Vermögen, ein Mietendeckel und die materielle Grundgeborgenheit unabhängig von Erwerbsarbeit. ",
+        "Die Pandemie verursacht und verschärft wirtschaftliche Not vieler Menschen, in reichen Ländern und drastischer im Globalen Süden. Und nach Billionen-Wirtschaftsförderung droht die nächste Sparwelle. Nötig sind jetzt massive Investitionen in steuerfinanzierte Infrastruktur wie Schulen und Büchereien, städtischen Wohnungsbau und ÖPNV, die allen Menschen zugute kommt. Nötig ist Umverteilung von sehr hohen Vermögen, ein Mietendeckel und die materielle Grundgeborgenheit unabhängig von Erwerbsarbeit!",
       items: [
         "Guter Wohnraum für alle - für Mietenbegrenzung und Wohnprojekte, gegen Spekulation",
-        "Umverteilung statt Kaputtsparen, für Vermögenssteuer und kostenlose soziale Infrastruktur",
+        "Umverteilung statt Kaputtsparen - für Vermögenssteuer und Abgabe auf sehr hohe Einkommen",
+        "Ausbau kostenloser soziale Infrastruktur aus Steuermitteln",
         "Schuldenerlass für den Globalen Süden, Rückzahlung der Klimaschulden",
       ],
     },
@@ -34,24 +35,36 @@ export default ({ slug }) => {
       intro:
         "Um die sozialen Folgen der Corona-Krise abzufedern, greift der Staat der Wirtschaft unter die Arme. Doch die Rettungspakete drohen die Klimakrise weiter anzuheizen, statt den dringend nötigen sozialen und ökologischen Umbau von Wirtschaft und Gesellschaft voranzutreiben. Klimaschutz ist immer eine Frage der Gerechtigkeit. Denn der Klimawandel trifft diejenigen am härtesten, die ihn am wenigsten zu verantworten haben. Sorgen wir uns um das Klima, die kommenden Generationen und die Menschen im Globalen Süden! Für Klimagerechtigkeit braucht es solidarische Lösungen!",
       items: [
-        "Eine Krisenpolitik, die zugleich für einen sozial-ökologischen Wandel genutzt wird",
+        "Eine Krisenpolitik, die zugleich für einen sozial-ökologischen Wandel sorgt.",
         "Eine Klimapolitik, die dem 1,5-Grad-Ziel gerecht wird",
-        "Keine Staatshilfen für Klimasünder! ",
-        "Ein sofortiger Kohlestopp und ein solidarischer Strukturwandel:",
-        "Ein ÖPNV-Ausbau und Fahrradwege statt Autobahnbau und Airline-Förderung",
+        "Keine Staatshilfen für Klimasünder",
+        "Sofortiger Kohlestopp und solidarischer Strukturwandel",
+        "ÖPNV-Ausbau und Fahrradwege statt Autobahnbau und Airline-Förderung",
       ],
     },
     {
       color: "purple",
-      title: "Rechte statt Mitleid!",
+      title: "Flucht und Migration – Rechte statt Lager!",
       intro:
-        "Ob auf dem Mittelmeer, vor den Kanaren, auf den griechischen Inseln, in Bosnien, in Libyen: Geflüchtete Menschen werden mit EU-Geldern in katastrophalen Zuständen an den europäischen Grenzen festgehalten. Doch ein solidarisches Europa ist möglich! Antirassistische Bewegungen kämpfen für die Vision einer Welt ohne Abschottung, ohne Lager und Haftzentren: Für ein offenes und solidarisches Europa - für globale Bewegungsfreiheit und gleiche Rechte für alle!",
+        "Die Pandemie kennt keine Grenzen, doch Europa schottet sich immer weiter ab: Sowohl an den europäischen Außengrenzen als auch bereits auf den Fluchtrouten durch Nordafrika. Menschen, die vor dem Tod geflohen sind, werden von Europa an der Grenze in Lagern festgehalten. Doch ein solidarisches Europa ist möglich! Antirassistische Bewegungen kämpfen für die Vision einer Welt ohne Abschottung, ohne Lager und ohne rassistische Gewalt: Für ein offenes und solidarisches Europa - für globale Bewegungsfreiheit und gleiche Rechte für alle!",
       items: [
         "Für sichere Fluchtwege statt Abschottung, Lager und Gewalt",
-        "Solidarische Städte und Sichere Häfen",
-        "Alle Lager abschaffen/evakuieren!",
-        "Rechten Terror lückenlos aufklären!",
-        "Für entkriminalisierung der zivilen und für staatliche Seenotrettung!"
+        "Für solidarische Städte und sichere Häfen",
+        "Alle Lager evakuieren",
+        "Rechten Terror lückenlos aufklären",
+        "Für Entkriminalisierung der zivilen und für staatliche Seenotrettung",
+      ],
+    },
+    {
+      color: "green",
+      title: "Frauen*rechte – Care-Revolution!",
+      intro:
+        "Pandemie bedeutet viel Betreuung: für schwerkranke Patient*innen, ältere Menschen in Quarantäne, Kinder bei Schließung von Kitas und Schulen. Diese Arbeit wird weltweit überwiegend von Frauen* geleistet, unentgeltlich oder in gering bezahlten Jobs. Weibliche Sorgearbeit ist eine Voraussetzung des jetzigen Wirtschaftssystems. Arbeitslosigkeit wird für Alleinerziehende jetzt zum Existenzrisiko. Beratungsstellen berichten von mehr Gewalt gegen Frauen* im Lockdown. Wir streiten dafür, sorgende Arbeit auf alle Menschen zu verteilen. Corona heißt: Wir sind aufeinander angewiesen.",
+      items: [
+        "Gendergerechte, gute Tariflöhne",
+        "Kürzere Erwerbsarbeit mit finanzieller Absicherung für alle Menschen ",
+        "Staatliche Förderung von Frauen*projekten und gemeinschaftlichen Wohnformen",
+        "Sorgende Arbeit von allen - gutes Leben für alle!",
       ],
     },
   ];
@@ -72,8 +85,7 @@ export default ({ slug }) => {
                 {demand.intro}
               </div>
               <div
-                className="col-span-9
-               col-start-3"
+                className="col-span-9 col-start-3"
               >
                 <ul className="list-disc">
                   {demand.items.map((item) => (

@@ -1,8 +1,8 @@
 export const menuItems = [
-  { label: "Krise", slug: "krise" },
+  { label: "Krise und Solidarität", slug: "krise-und-solidaritat" },
   { label: "Was wir wollen", slug: "was-wir-wollen" },
-  { label: "Kampagne", slug: "kampagne" },
-  { label: "Mitmachen", slug: "mitmachen" },
+  { label: "Kampagne, Mitmachen!", slug: "kampagne" },
+  { label: "Kontakt und Info", slug: "kontakt-und-info" },
   { label: "Bündnis", slug: "buendnis" },
 ];
 

@@ -21,15 +21,38 @@ export default ({ slug }) => {
           <Stripe fillColor="green" textColor="white" rotationDeg="1.2">
             Das Kampagnen-Bündnis
           </Stripe>
-          <div className="block">
-            {supporters.map((supporter) => (
-              <Image
-                name={supporter}
-                style={{ width: "12rem" }}
-                className="inline-block mr-3"
-              />
-            ))}
-          </div>
+        </div>
+        <div className="col-span-9 col-start-3 text-sm">
+          <strong>Die Plattform solidarische Transformation</strong> diskutiert
+          zur Zeit den Kampagnenvorschlag und bezieht weitere Organisationen mit
+          ein. An den Treffen der Plattform haben in den vergangenen Monaten
+          diese Organisationen teilgenommen (teilweise mandatiert):
+          <ul className="list-disc pl-3">
+            <li>350.org</li>
+            <li>afrique-europe-interact</li>
+            <li>Attac</li>
+            <li>BUND</li>
+            <li>Campact</li>
+            <li>Ende Gel&auml;nde</li>
+            <li>Fridays For Future</li>
+            <li>Gemeinsam gegen die Tierindustrie</li>
+            <li>Greenpeace</li>
+            <li>IG Metall</li>
+            <li>Initiative Offene Gesellschaft</li>
+            <li>Interventionistische Linke</li>
+            <li>Klimaallianz</li>
+            <li>Konzeptwerk Neue &Ouml;konomie</li>
+            <li>medico</li>
+            <li>Netzwerk Care Revolution</li>
+            <li>Netzwek Polylux</li>
+            <li>NOW</li>
+            <li>Parit&auml;tischer Gesamtverband</li>
+            <li>Robin Wood</li>
+            <li>Seebr&uuml;cke</li>
+            <li>Umweltistitut M&uuml;nchen</li>
+            <li>#unteilbar</li>
+            <li>Ver.di</li>
+          </ul>
         </div>
       </div>
     </div>
