@@ -56,7 +56,7 @@ export default ({ slug }) => {
       ],
     },
     {
-      color: "green",
+      color: "yellow",
       title: "Frauen*rechte – Care-Revolution!",
       intro:
         "Pandemie bedeutet viel Betreuung: für schwerkranke Patient*innen, ältere Menschen in Quarantäne, Kinder bei Schließung von Kitas und Schulen. Diese Arbeit wird weltweit überwiegend von Frauen* geleistet, unentgeltlich oder in gering bezahlten Jobs. Weibliche Sorgearbeit ist eine Voraussetzung des jetzigen Wirtschaftssystems. Arbeitslosigkeit wird für Alleinerziehende jetzt zum Existenzrisiko. Beratungsstellen berichten von mehr Gewalt gegen Frauen* im Lockdown. Wir streiten dafür, sorgende Arbeit auf alle Menschen zu verteilen. Corona heißt: Wir sind aufeinander angewiesen.",
@@ -77,11 +77,11 @@ export default ({ slug }) => {
           <div className={`bg-${demand.color} py-4`} id={slug}>
             <div className="container grid-12">
               <div className="col-span-12 text-left sm:text-center">
-                <h2 className="uppercase text-white text-md font-bold leading-normal">
+                <h2 className="uppercase text-black text-md font-bold leading-normal">
                   {demand.title}
                 </h2>
               </div>
-              <div className="col-span-12 col-start-1 sm:col-span-10 sm:col-start-2  leading-larger text-med sm:text-sm text-white">
+              <div className="col-span-12 col-start-1 sm:col-span-10 sm:col-start-2  leading-larger text-med sm:text-sm text-black">
                 {demand.intro}
               </div>
               <div
@@ -89,7 +89,7 @@ export default ({ slug }) => {
               >
                 <ul className="list-disc">
                   {demand.items.map((item) => (
-                    <li className="text-white text-med sm:text-sm">{item}</li>
+                    <li className="text-black text-med sm:text-sm">{item}</li>
                   ))}
                 </ul>
               </div>
