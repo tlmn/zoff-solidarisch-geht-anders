@@ -8,7 +8,7 @@ export default ({ slug }) => (
     <div className="bg-green py-4" id={slug}>
       <div className="container">
         <div className="grid-12">
-          <div className="col-span-10 col-start-2 leading-larger text-base sm:text-sm text-black">
+          <div className="col-span-12 sm:col-span-10 sm:col-start-2 leading-larger text-med sm:text-sm text-black">
             Fehlende Krankenpfleger*innen, unbezahlbare Mieten und
             Arbeitslosigkeit hier, Hunger und tödliche Fluchtrouten im Süden der
             Welt: Corona wirkt wie wie ein Brandbeschleuniger für
@@ -33,7 +33,7 @@ export default ({ slug }) => (
             Reichtums, gegen das Kaputtsparen der Städte. Wir treten ein für
             sichere Fluchtwege und den Schutz des Klimas.
           </div>
-          <div className="font-bold col-span-10 col-start-2 text-sm sm:text-md">
+          <div className="font-bold col-span-12 col-start-1 sm:col-span-10 sm:col-start-2 text-sm sm:text-md">
             Wir zeigen gemeinsam:{" "}
             <Stripe fillColor="white" textColor="black" rotationDeg="-0.8">
               Solidarität geht anders.

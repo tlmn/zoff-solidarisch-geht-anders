@@ -76,20 +76,20 @@ export default ({ slug }) => {
           <EdgeUpper fillColor={colors[demand.color]} />
           <div className={`bg-${demand.color} py-4`} id={slug}>
             <div className="container grid-12">
-              <div className="col-span-12 text-center">
-                <h2 className="uppercase text-white text-md font-bold">
+              <div className="col-span-12 text-left sm:text-center">
+                <h2 className="uppercase text-white text-md font-bold leading-normal">
                   {demand.title}
                 </h2>
               </div>
-              <div className="col-span-10 col-start-2 leading-larger text-sm text-white">
+              <div className="col-span-12 col-start-1 sm:col-span-10 sm:col-start-2  leading-larger text-med sm:text-sm text-white">
                 {demand.intro}
               </div>
               <div
-                className="col-span-9 col-start-3"
+                className="col-span-10 col-start-2 sm:col-span-9 sm:col-start-3"
               >
                 <ul className="list-disc">
                   {demand.items.map((item) => (
-                    <li className="text-white text-sm">{item}</li>
+                    <li className="text-white text-med sm:text-sm">{item}</li>
                   ))}
                 </ul>
               </div>

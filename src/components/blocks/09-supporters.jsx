@@ -17,12 +17,12 @@ export default ({ slug }) => {
   return (
     <div className="bg-white py-4" id={slug}>
       <div className="container grid-12">
-        <div className="col-span-10 text-lg uppercase font-bold">
+        <div className="col-span-10 text-lg uppercase font-bold leading-tight sm:leading-normal">
           <Stripe fillColor="green" textColor="white" rotationDeg="1.2">
             Das Kampagnen-Bündnis
           </Stripe>
         </div>
-        <div className="col-span-9 col-start-3 text-sm">
+        <div className="col-span-12 sm:col-span-9 sm:col-start-3 text-med sm:text-sm">
           <strong>
             Das Bündnis besteht zur Zeit noch nicht. Wenn es startet, werden
             hier die teilnehmenden Organisationen und Netzwerke genannt.

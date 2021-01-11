@@ -34,6 +34,7 @@ export default () => {
               <Stripe fillColor="blue" textColor="white" rotationDeg="-0.8">
                 Wir machen einen Vorschlag
               </Stripe>
+              <br />
               <Stripe fillColor="blue" textColor="white" rotationDeg="0.6">
                 bringt eure Pläne ein!
               </Stripe>
@@ -122,7 +123,7 @@ export default () => {
           <div className="col-span-12 flex justify-center">
             <button
               onClick={() => setShowPopOver(false)}
-              className="text-sm hover:bg-red hover:text-black transition-all ease-in-out duration-200 py-1 px-1 bg-red uppercase rounded-lg text-white inline-block"
+              className="text-sm font-bold hover:bg-red hover:text-black transition-all ease-in-out duration-200 py-1 px-1 bg-red uppercase rounded-lg text-white inline-block"
             >
               Schließen
             </button>
