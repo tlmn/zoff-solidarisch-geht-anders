@@ -10,8 +10,8 @@ export default ({ slug }) => (
         </Stripe>
       </div>
       <div className="col-span-10 col-start-2 leading-larger text-sm text-black">
-        Viele Menschen setzen sich schon jetzt gemeinsam ein für eine gerechtere
-        und solidarische Gesellschaft. In Sozialverbänden, Gewerkschaften und
+        Viele Menschen setzen sich schon jetzt gemeinsam für eine gerechtere und
+        solidarische Gesellschaft ein. In Sozialverbänden, Gewerkschaften und
         Initiativen, in feministischen und antirassistischen Organisationen, in
         Klimabewegung und Umweltverbänden und an ihren Arbeitsplätzen zeigen sie
         Gesicht, protestieren gemeinsam und leben bessere Alternativen.
@@ -19,8 +19,10 @@ export default ({ slug }) => (
         <br />
         Wir wollen in dieser Kampagne dazu beitragen, ihre Stimmen hörbar zu
         machen in einer gemeinsamen Erzählung der Solidarität, der sozialen und
-        ökologischen Verantwortung. Wofür treten wir ein - und wogegen streiten
-        wir?
+        ökologischen Verantwortung.
+        <br />
+        <br />
+        Wofür treten wir ein - und wogegen streiten wir?
         <Stripe fillColor="purple" textColor="white" rotationDeg="-1">
           Wie geht solidarisch?
         </Stripe>

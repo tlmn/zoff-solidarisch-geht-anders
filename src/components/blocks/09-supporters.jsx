@@ -23,6 +23,12 @@ export default ({ slug }) => {
           </Stripe>
         </div>
         <div className="col-span-9 col-start-3 text-sm">
+          <strong>
+            Das Bündnis besteht zur Zeit noch nicht. Wenn es startet, werden
+            hier die teilnehmenden Organisationen und Netzwerke genannt.
+          </strong>
+          <br />
+          <br />
           <strong>Die Plattform solidarische Transformation</strong> diskutiert
           zur Zeit den Kampagnenvorschlag und bezieht weitere Organisationen mit
           ein. An den Treffen der Plattform haben in den vergangenen Monaten

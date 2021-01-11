@@ -26,7 +26,9 @@ export default () => {
             style={{ maxHeight: "400px" }}
           >
             <h3 className="leading-tight mb-2 uppercase font-bold text-md text-white">
-              Wir machen einen Vorschlag – bringt eure Pläne ein!
+              Wir machen einen Vorschlag
+              <br />
+              bringt eure Pläne ein!
             </h3>
             <div className="text-base text-white">
               Diese Homepage soll einen Kampagnen-Vorschlag veranschaulichen, um
@@ -61,7 +63,10 @@ export default () => {
               <br />
               Damit positionieren wir uns gegen jede ausgrenzende,
               unsolidarische, zerstörerische Politik. Wir sagen: Solidarisch
-              geht anders! Was können wir erreichen?
+              geht anders!
+              <br />
+              <br />
+              Was können wir erreichen?
               <ul className="list-disc pl-3">
                 <li>
                   eine Diskurs- und Dachkampagne, die soziale und ökologische
@@ -83,10 +88,20 @@ export default () => {
               Alternative, sondern als „Dacherzählung“ sowieso geplanter
               Kampagnen gedacht.{" "}
               <strong>
-                Seid Ihr dabei? Werdet Teil des Bündnisses! Kontakt zur
-                Prozessgruppe der Plattform solidarische Transformation:
-              </strong>{" "}
-              <a href="mailto:sozoekocorona-info@riseup.net">
+                Seid Ihr dabei?
+                <br />
+                <br />
+              </strong>
+              <h3 className="leading-tight mb-2 uppercase font-bold text-md text-white">
+                Werdet Teil des Bündnisses!
+              </h3>{" "}
+              Kontakt zur Prozessgruppe der Plattform solidarische
+              Transformation:
+              <br />
+              <a
+                href="mailto:sozoekocorona-info@riseup.net"
+                className="underline hover:no-underline"
+              >
                 sozoekocorona-info@riseup.net
               </a>
             </div>

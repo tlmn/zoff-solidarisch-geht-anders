@@ -11,9 +11,9 @@ export default ({ slug }) => {
           </Stripe>
         </div>
         <div className="col-span-9 col-start-3 text-sm">
-          Die Aktions-Bündnis bietet viele Möglichkeiten zum Mitmachen von
-          Personen:
-          <ul className="list-disc pl-3">
+          Das Aktions-Bündnis bietet viele Möglichkeiten zum{" "}
+          <strong>Mitmachen von Personen</strong>:
+          <ul className="list-disc pl-3 my-2">
             <li>
               Material und Online-Tools: Wir zeigen, was Solidarität ist, was
               wir wollen und fordern.
@@ -26,15 +26,16 @@ export default ({ slug }) => {
               Sich vor Ort zusammentun: Wir erleichtern den Anschluss an
               Regionalgruppen.
             </li>
-            <li>
-              Aktivitäten der Kampagne: Das Bündnis geht auf die Straße
-              Gleichzeitig ist die Kampagne ein Dach für sowieso geplante
-              Demonstrationen und Aktionen der Bündnis-Organisationen.
-            </li>
-            <li>
-              Sie positionieren sich damit gemeinsam, für welche Solidarität sie
-              streiten und machen sich gemeinsam hörbar.
-            </li>
+            <li>Aktivitäten der Kampagne: Das Bündnis geht auf die Straße</li>
+          </ul>
+          Gleichzeitig ist die Kampagne ein Dach für sowieso geplante
+          Demonstrationen und Aktionen der{" "}
+          <strong>Bündnis-Organisationen</strong>.
+          <br />
+          <br />
+          Sie positionieren sich damit gemeinsam, für welche Solidarität sie
+          streiten und machen sich gemeinsam hörbar.
+          <ul className="list-disc pl-3 my-2">
             <li>
               Organisationen gehen ins Bündnis: Ein Dach für eigene Kampagnen
             </li>
