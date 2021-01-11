@@ -23,19 +23,25 @@ export default ({ slug }) => {
               <li>
                 Bestelle Material:{" "}
                 <button className="my-1 mx-1 text-sm hover:bg-red hover:text-white transition-all ease-in-out duration-200 py-1 px-1 bg-white rounded-lg text-blue inline-block">
-                  jetzt bestellen
+                  jetzt Material bestellen
+                </button>
+              </li>
+              <li>
+                Druckvorlagen:{" "}
+                <button className="my-1 mx-1 text-sm hover:bg-red hover:text-white transition-all ease-in-out duration-200 py-1 px-1 bg-white rounded-lg text-blue inline-block">
+                  jetzt downloaden
                 </button>
               </li>
               <li>
                 Nutze unsere digitalen Tools:{" "}
                 <button className="my-1 mx-1 text-sm hover:bg-red hover:text-white transition-all ease-in-out duration-200 py-1 px-1 bg-white rounded-lg text-blue inline-block">
-                  Download
+                  jetzt downloaden
                 </button>
               </li>
               <li>
                 Werde aktiv in einer lokalen Gruppe in Deiner Nähe:
                 <button className="my-1 mx-1 text-sm hover:bg-red hover:text-white transition-all ease-in-out duration-200 py-1 px-1 bg-white rounded-lg text-blue inline-block">
-                  jetzt bestellen
+                  finde deine lokale Gruppe
                 </button>
               </li>
               <li>

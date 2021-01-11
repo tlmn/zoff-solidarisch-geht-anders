@@ -19,7 +19,13 @@ export default ({ slug }) => (
                 mixBlendMode: "multiply",
               }}
             />
-            <span className="text-lg xxl:text-xxl text-white z-20 absolute bottom-0 left-0 w-1/2 ml-3 mb-3">
+            <span
+              className="text-lg xxl:text-xxl text-white z-20 absolute bottom-0 left-0 w-1/2 ml-3 mb-3"
+              style={{
+                textShadow:
+                  "-1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5)",
+              }}
+            >
               Applaus für Pflege reicht nicht. Wir brauchen mehr Personal,
               bessere Gehälter,
               <Stripe fillColor="red" textColor="white" rotationDeg="-1">
@@ -39,7 +45,13 @@ export default ({ slug }) => (
                 mixBlendMode: "multiply",
               }}
             />
-            <span className="text-lg xxl:text-xxl  text-white z-20 absolute bottom-0 left-0 w-1/2 ml-3 mb-3">
+            <span
+              className="text-lg xxl:text-xxl text-white z-20 absolute bottom-0 left-0 w-1/2 ml-3 mb-3"
+              style={{
+                textShadow:
+                  "-1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5)",
+              }}
+            >
               Wir fliehen aus Verfolgung, Hunger oder Krieg, aber Europa
               schottet sich ab.
               <Stripe fillColor="red" textColor="white" rotationDeg="-1">
@@ -60,11 +72,42 @@ export default ({ slug }) => (
                 mixBlendMode: "multiply",
               }}
             />
-            <span className="text-lg xxl:text-xxl text-white z-20 absolute bottom-0 left-0 w-1/2 ml-3 mb-3">
+            <span
+              className="text-lg xxl:text-xxl text-white z-20 absolute bottom-0 left-0 w-1/2 ml-3 mb-3"
+              style={{
+                textShadow:
+                  "-1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5)",
+              }}
+            >
               Wir Verkäuferinnen sind super-relevant, unsere Arbeitsplätze aber
               unterbezahlt und oft unsicher.
               <Stripe fillColor="red" textColor="white" rotationDeg="-1">
                 Fairer Tariflohn statt leerer Worte!
+              </Stripe>
+            </span>
+          </div>
+        </div>
+        <div style={{ height: "100%" }}>
+          <div className="relative h-full">
+            <Image name="04-4.jpg" className="h-full" />
+            <div
+              className="absolute top-0 left-0 z-20 w-full h-full"
+              style={{
+                background:
+                  "linear-gradient(180deg, rgba(255, 255, 255, 0) 47.92%, #000000 100%);",
+                mixBlendMode: "multiply",
+              }}
+            />
+            <span
+              className="text-lg xxl:text-xxl text-white z-20 absolute bottom-0 left-0 w-1/2 ml-3 mb-3"
+              style={{
+                textShadow:
+                  "-1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5)",
+              }}
+            >
+              Wir lassen uns für die Braunkohle nicht enteignen.
+              <Stripe fillColor="red" textColor="white" rotationDeg="-1">
+                Wir sagen: Alle Dörfer bleiben!
               </Stripe>
             </span>
           </div>

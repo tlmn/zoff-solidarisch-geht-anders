@@ -9,7 +9,7 @@ export default ({ slug }) => {
       color: "red",
       title: "Gesundheit für alle!",
       intro:
-        "Gesundheit ist öffentliche Aufgabe, keine Ware. Sie steht für viele Bereiche, die dem Markt entzogen werden müssen, weil er sie nicht regelt. Die Coronakrise zeigt das überdeutlich, mit fehlendem Pflegepersonal, mangelnder Ausrüstung, in vielen Ländern kaputtgesparten bzw. privatisierten Gesundheitssystemen. Impfstoff gibt es zuerst nur für reiche Länder, Medikamente und Intensivmedizin fehlen oft im Globalen Süden. Für ein solidarisches Gesundheitssystem - Applaus reicht nicht!",
+        "Gesundheit ist öffentliche Aufgabe, keine Ware. Sie steht für viele Bereiche, die dem Markt entzogen werden müssen, weil er sie nicht regelt. Die Coronakrise zeigt das überdeutlich, mit fehlendem Pflegepersonal, mangelnder Ausrüstung, in vielen Ländern kaputtgesparten bzw. privatisierten Gesundheitssystemen. Impfstoff gibt es zuerst nur für reiche Länder, Medikamente und Intensivmedizin fehlen oft im Globalen Süden. Für ein solidarisches Gesundheitssystem – Applaus reicht nicht!",
       items: [
         "Mehr Personal und höhere Gehälter in Pflege und Kitas",
         "Bürgerversicherung statt Zweiklassenmedizin",
@@ -23,8 +23,8 @@ export default ({ slug }) => {
       intro:
         "Die Pandemie verursacht und verschärft wirtschaftliche Not vieler Menschen, in reichen Ländern und drastischer im Globalen Süden. Und nach Billionen-Wirtschaftsförderung droht die nächste Sparwelle. Nötig sind jetzt massive Investitionen in steuerfinanzierte Infrastruktur wie Schulen und Büchereien, städtischen Wohnungsbau und ÖPNV, die allen Menschen zugute kommt. Nötig ist Umverteilung von sehr hohen Vermögen, ein Mietendeckel und die materielle Grundgeborgenheit unabhängig von Erwerbsarbeit!",
       items: [
-        "Guter Wohnraum für alle - für Mietenbegrenzung und Wohnprojekte, gegen Spekulation",
-        "Umverteilung statt Kaputtsparen - für Vermögenssteuer und Abgabe auf sehr hohe Einkommen",
+        "Guter Wohnraum für alle – für Mietenbegrenzung und Wohnprojekte, gegen Spekulation",
+        "Umverteilung statt Kaputtsparen – für Vermögenssteuer und Abgabe auf sehr hohe Einkommen",
         "Ausbau kostenloser soziale Infrastruktur aus Steuermitteln",
         "Schuldenerlass für den Globalen Süden, Rückzahlung der Klimaschulden",
       ],
@@ -46,7 +46,7 @@ export default ({ slug }) => {
       color: "purple",
       title: "Flucht und Migration – Rechte statt Lager!",
       intro:
-        "Die Pandemie kennt keine Grenzen, doch Europa schottet sich immer weiter ab: Sowohl an den europäischen Außengrenzen als auch bereits auf den Fluchtrouten durch Nordafrika. Menschen, die vor dem Tod geflohen sind, werden von Europa an der Grenze in Lagern festgehalten. Doch ein solidarisches Europa ist möglich! Antirassistische Bewegungen kämpfen für die Vision einer Welt ohne Abschottung, ohne Lager und ohne rassistische Gewalt: Für ein offenes und solidarisches Europa - für globale Bewegungsfreiheit und gleiche Rechte für alle!",
+        "Die Pandemie kennt keine Grenzen, doch Europa schottet sich immer weiter ab: Sowohl an den europäischen Außengrenzen als auch bereits auf den Fluchtrouten durch Nordafrika. Menschen, die vor dem Tod geflohen sind, werden von Europa an der Grenze in Lagern festgehalten. Doch ein solidarisches Europa ist möglich! Antirassistische Bewegungen kämpfen für die Vision einer Welt ohne Abschottung, ohne Lager und ohne rassistische Gewalt: Für ein offenes und solidarisches Europa – für globale Bewegungsfreiheit und gleiche Rechte für alle!",
       items: [
         "Für sichere Fluchtwege statt Abschottung, Lager und Gewalt",
         "Für solidarische Städte und sichere Häfen",
@@ -64,7 +64,7 @@ export default ({ slug }) => {
         "Gendergerechte, gute Tariflöhne",
         "Kürzere Erwerbsarbeit mit finanzieller Absicherung für alle Menschen ",
         "Staatliche Förderung von Frauen*projekten und gemeinschaftlichen Wohnformen",
-        "Sorgende Arbeit von allen - gutes Leben für alle!",
+        "Sorgende Arbeit von allen – gutes Leben für alle!",
       ],
     },
   ];

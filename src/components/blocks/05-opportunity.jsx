@@ -22,7 +22,9 @@ export default ({ slug }) => (
         ökologischen Verantwortung.
         <br />
         <br />
-        Wofür treten wir ein - und wogegen streiten wir?
+        Wofür treten wir ein – und wogegen streiten wir?
+        <br />
+        <br />
         <Stripe fillColor="purple" textColor="white" rotationDeg="-1">
           Wie geht solidarisch?
         </Stripe>

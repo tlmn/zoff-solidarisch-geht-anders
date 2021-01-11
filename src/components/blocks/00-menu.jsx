@@ -86,14 +86,11 @@ export default () => {
               gemeinsame Aktivitäten an. Die Kampagne lebt besonders durch
               Regionalgruppen teilnehmender Organisationen. Und ist nicht als
               Alternative, sondern als „Dacherzählung“ sowieso geplanter
-              Kampagnen gedacht.{" "}
-              <strong>
-                Seid Ihr dabei?
-                <br />
-                <br />
-              </strong>
+              Kampagnen gedacht.
+              <br />
+              <br />
               <h3 className="leading-tight mb-2 uppercase font-bold text-md text-white">
-                Werdet Teil des Bündnisses!
+                Seid Ihr dabei? Werdet Teil des Bündnisses!
               </h3>{" "}
               Kontakt zur Prozessgruppe der Plattform solidarische
               Transformation:
@@ -121,7 +118,10 @@ export default () => {
         <button
           onClick={() => setShowPopOver(true)}
           className="text-sm hover:bg-red hover:text-white transition-all ease-in-out duration-200 py-1 px-1 bg-white rounded-lg text-blue inline-block"
-
+          style={{
+            boxShadow:
+              "-1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5)",
+          }}
         >
           Vorbemerkung anzeigen
         </button>
