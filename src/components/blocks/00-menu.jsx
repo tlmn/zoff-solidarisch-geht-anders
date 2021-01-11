@@ -13,7 +13,7 @@ export default () => {
         className="fixed w-screen h-screen flex justify-center items-center"
         style={{
           display: showPopOver === true ? "block" : "none",
-          zIndex: 2000,
+          zIndex: 3000,
           backdropFilter: "blur(3px)",
         }}
       >
@@ -115,6 +115,16 @@ export default () => {
             </button>
           </div>
         </div>
+      </div>
+
+      <div className="fixed bottom-0 ml-2 mb-2" style={{ zIndex: 2000 }}>
+        <button
+          onClick={() => setShowPopOver(true)}
+          className="text-sm hover:bg-red hover:text-white transition-all ease-in-out duration-200 py-1 px-1 bg-white rounded-lg text-blue inline-block"
+
+        >
+          Vorbemerkung anzeigen
+        </button>
       </div>
       <div
         className="fixed w-full flex justify-center bottom-0 md:bg-red md:bottom-auto md:top-0"
