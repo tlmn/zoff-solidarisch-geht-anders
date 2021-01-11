@@ -12,7 +12,7 @@ export default ({ slug }) => (
           <div className="relative h-full">
             <Image name="04-1.jpg" className="h-full" />
             <div
-              className="absolute top-0 left-0 z-20 w-full h-full"
+              className="absolute top-0 left-0 z-20 w-8/12 h-full"
               style={{
                 background:
                   "linear-gradient(180deg, rgba(255, 255, 255, 0) 47.92%, #000000 100%);",
@@ -20,7 +20,7 @@ export default ({ slug }) => (
               }}
             />
             <span
-              className="text-lg xxl:text-xxl text-white z-20 absolute bottom-0 left-0 w-1/2 ml-3 mb-3"
+              className="text-sm sm:text-xl leading-tight sm:leading-wider xxl:text-xxl text-white z-20 absolute bottom-0 left-0 w-8/12 sm:w-1/2 ml-2 mb-2 sm:ml-3 sm:mb-3"
               style={{
                 textShadow:
                   "-1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5)",
@@ -38,7 +38,7 @@ export default ({ slug }) => (
           <div className="relative h-full">
             <Image name="04-2.jpg" className="h-full" />
             <div
-              className="absolute top-0 left-0 z-20 w-full h-full"
+              className="absolute top-0 left-0 z-20 w-8/12 h-full"
               style={{
                 background:
                   "linear-gradient(180deg, rgba(255, 255, 255, 0) 47.92%, #000000 100%);",
@@ -46,7 +46,7 @@ export default ({ slug }) => (
               }}
             />
             <span
-              className="text-lg xxl:text-xxl text-white z-20 absolute bottom-0 left-0 w-1/2 ml-3 mb-3"
+              className="text-sm sm:text-xl leading-tight sm:leading-wider xxl:text-xxl text-white z-20 absolute bottom-0 left-0 w-8/12 sm:w-1/2 ml-2 mb-2 sm:ml-3 sm:mb-3"
               style={{
                 textShadow:
                   "-1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5)",
@@ -65,7 +65,7 @@ export default ({ slug }) => (
           <div className="relative h-full">
             <Image name="04-3.jpg" className="h-full" />
             <div
-              className="absolute top-0 left-0 z-20 w-full h-full"
+              className="absolute top-0 left-0 z-20 w-8/12 h-full"
               style={{
                 background:
                   "linear-gradient(180deg, rgba(255, 255, 255, 0) 47.92%, #000000 100%);",
@@ -73,7 +73,7 @@ export default ({ slug }) => (
               }}
             />
             <span
-              className="text-lg xxl:text-xxl text-white z-20 absolute bottom-0 left-0 w-1/2 ml-3 mb-3"
+              className="text-sm sm:text-xl leading-tight sm:leading-wider xxl:text-xxl text-white z-20 absolute bottom-0 left-0 w-8/12 sm:w-1/2 ml-2 mb-2 sm:ml-3 sm:mb-3"
               style={{
                 textShadow:
                   "-1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5)",
@@ -91,7 +91,7 @@ export default ({ slug }) => (
           <div className="relative h-full">
             <Image name="04-4.jpg" className="h-full" />
             <div
-              className="absolute top-0 left-0 z-20 w-full h-full"
+              className="absolute top-0 left-0 z-20 w-8/12 h-full"
               style={{
                 background:
                   "linear-gradient(180deg, rgba(255, 255, 255, 0) 47.92%, #000000 100%);",
@@ -99,7 +99,7 @@ export default ({ slug }) => (
               }}
             />
             <span
-              className="text-lg xxl:text-xxl text-white z-20 absolute bottom-0 left-0 w-1/2 ml-3 mb-3"
+              className="text-sm sm:text-xl xxl:text-xxl text-white z-20 absolute bottom-0 left-0 w-8/12 sm:w-1/2 ml-2 mb-2 sm:ml-3 sm:mb-3"
               style={{
                 textShadow:
                   "-1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5)",

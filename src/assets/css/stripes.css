@@ -2,6 +2,8 @@
   @apply bg-white;
   @apply w-full;
   @apply inline;
+  margin-top: -5%;
+  margin-bottom: -5%;
   content: " ";
   @apply absolute;
   box-decoration-break: clone;

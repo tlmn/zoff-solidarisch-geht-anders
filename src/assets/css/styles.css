@@ -7,7 +7,13 @@
 
 .grid-12 {
   @apply grid-cols-12;
-  @apply gap-3;
+  @apply gap-0;
   @apply grid;
   @apply row-gap-3;
+}
+
+@screen sm {
+  .grid-12 {
+    @apply gap-3;
+  }
 }
