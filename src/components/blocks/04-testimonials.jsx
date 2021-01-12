@@ -12,7 +12,7 @@ export default ({ slug }) => (
           <div className="relative h-full">
             <Image name="04-1.jpg" className="h-full" />
             <div
-              className="absolute top-0 left-0 z-20 w-8/12 h-full"
+              className="absolute top-0 left-0 z-20 w-full h-full"
               style={{
                 background:
                   "linear-gradient(180deg, rgba(255, 255, 255, 0) 47.92%, #000000 100%);",
