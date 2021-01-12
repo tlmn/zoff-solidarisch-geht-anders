@@ -38,7 +38,7 @@ export default ({ slug }) => (
           <div className="relative h-full">
             <Image name="04-2.jpg" className="h-full" />
             <div
-              className="absolute top-0 left-0 z-20 w-8/12 h-full"
+              className="absolute top-0 left-0 z-20 h-full"
               style={{
                 background:
                   "linear-gradient(180deg, rgba(255, 255, 255, 0) 47.92%, #000000 100%);",
@@ -65,7 +65,7 @@ export default ({ slug }) => (
           <div className="relative h-full">
             <Image name="04-3.jpg" className="h-full" />
             <div
-              className="absolute top-0 left-0 z-20 w-8/12 h-full"
+              className="absolute top-0 left-0 z-20 h-full"
               style={{
                 background:
                   "linear-gradient(180deg, rgba(255, 255, 255, 0) 47.92%, #000000 100%);",
@@ -91,7 +91,7 @@ export default ({ slug }) => (
           <div className="relative h-full">
             <Image name="04-4.jpg" className="h-full" />
             <div
-              className="absolute top-0 left-0 z-20 w-8/12 h-full"
+              className="absolute top-0 left-0 z-20 h-full"
               style={{
                 background:
                   "linear-gradient(180deg, rgba(255, 255, 255, 0) 47.92%, #000000 100%);",
@@ -108,6 +108,32 @@ export default ({ slug }) => (
               Wir lassen uns für die Braunkohle nicht enteignen.
               <Stripe fillColor="red" textColor="white" rotationDeg="-1">
                 Wir sagen: Alle Dörfer bleiben!
+              </Stripe>
+            </span>
+          </div>
+        </div>
+        <div style={{ height: "100%" }}>
+          <div className="relative h-full">
+            <Image name="04-4.jpg" className="h-full" />
+            <div
+              className="absolute top-0 left-0 z-20 h-full"
+              style={{
+                background:
+                  "linear-gradient(180deg, rgba(255, 255, 255, 0) 47.92%, #000000 100%);",
+                mixBlendMode: "multiply",
+              }}
+            />
+            <span
+              className="text-sm sm:text-xl xxl:text-xxl text-white z-20 absolute bottom-0 left-0 w-8/12 sm:w-1/2 ml-2 mb-2 sm:ml-3 sm:mb-3"
+              style={{
+                textShadow:
+                  "-1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5)",
+              }}
+            >
+              Als Alleinerziehende bringt mich Corona an den Rand meiner Kräfte.
+              <Stripe fillColor="red" textColor="white" rotationDeg="-0.6">
+                Jetzt kürzere Erwerbsarbeit mit finanzieller Absicherung aller
+                Menschen!
               </Stripe>
             </span>
           </div>

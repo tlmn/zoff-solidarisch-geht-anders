@@ -40,7 +40,7 @@ export default ({ slug }) => {
         <div className="col-span-9 col-start-3 text-sm">
           <div className="text-med sm:text-sm">
             <p>
-              Das Kampagne-Bündnis vereint verschiedener Organisationen,
+              Das Kampagnen-Bündnis vereint verschiedener Organisationen,
               Bewegungen und Netzwerke. Wir beziehen unsere eigenen Kampagnen
               und Mobilisierungen auf eine <strong>gemeinsame Message</strong>,
               machen Solidarität konkret an gemeinsamen Zielen. Wir verabreden
@@ -88,7 +88,7 @@ export default ({ slug }) => {
           </h3>
           <div className="text-med sm:text-sm">
             Besonders in der Coronazeit finden wir neue Formen zum Mitmachen:
-            Social Media-Kampagnen, ein Sharepic-Generator, und vieles mehr.
+            Social Media-Kampagnen, ein Sharepic-Generator und vieles mehr.
           </div>
           <Image name="ShareP_01.jpg" />
         </div>
