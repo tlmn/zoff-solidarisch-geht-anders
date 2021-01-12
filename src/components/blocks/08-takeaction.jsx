@@ -16,9 +16,15 @@ export default ({ slug }) => {
             </h2>
           </div>
           <div className="col-span-12 sm:col-span-9 sm:col-start-3 text-med sm:text-sm text-white">
-            Über unsere Kampagnenwebseite und die sozialen Medien habt ihr die
-            Möglichkeit, euch über geplante Aktivitäten zu informieren und euch
-            diesen anzuschließen.
+            <p>
+              &Uuml;ber unsere Kampagnenwebseite und die sozialen Medien habt
+              ihr die M&ouml;glichkeit, euch&nbsp;
+              <strong>
+                &uuml;ber geplante Aktivit&auml;ten zu informieren und euch
+                diesen anzuschlie&szlig;en
+              </strong>
+              .
+            </p>
             <ul className="list-disc pl-3 my-3">
               <li>
                 Bestelle Material:{" "}
@@ -51,10 +57,12 @@ export default ({ slug }) => {
                 </button>
               </li>
             </ul>
-            <strong>
-              Organisationen, die dem Kampagnen-Bündnis beitreten wollen
-            </strong>
-            , schreiben bitte an: Kontaktadresse des Bündnisses:{" "}
+            <p>
+              <strong>
+                Organisationen, die dem Kampagnen-B&uuml;ndnis beitreten wollen
+              </strong>
+              , schreiben bitte an die Kontaktadresse des B&uuml;ndnisses:
+            </p>
             <a
               href="mailto:sozoekocorona-info@riseup.net"
               className="underline hover:no-underline"

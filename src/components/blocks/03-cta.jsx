@@ -6,9 +6,11 @@ export default ({ slug }) => (
     <div className="container grid-12">
       <div className="flex items-center col-span-12 flex-col">
         <span className="text-med sm:text-md text-white inline-block mb-2 text-center">
-          Streitet mit uns für eine gerechte und ökologische Zukunft!
-          <br />
-          Stellt euch mit uns gegen Ausgrenzung und Zerstörung!
+          <p>
+            Streitet mit uns f&uuml;r eine gerechte und &ouml;kologische
+            Zukunft!
+          </p>
+          <p>Stellt euch mit uns gegen Ausgrenzung und Zerst&ouml;rung!</p>
         </span>
         <AnchorLink
           href="#kampagne"

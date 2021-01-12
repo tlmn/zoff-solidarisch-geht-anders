@@ -11,35 +11,45 @@ export default ({ slug }) => {
           </Stripe>
         </div>
         <div className="col-span-12 sm:col-span-9 sm:col-start-3 text-med sm:text-sm">
-          Das Aktions-Bündnis bietet viele Möglichkeiten zum{" "}
-          <strong>Mitmachen von Personen</strong>:
-          <ul className="list-disc pl-3 my-2">
-            <li>
-              Material und Online-Tools: Wir zeigen, was Solidarität ist, was
-              wir wollen und fordern.
-            </li>
-            <li>
-              Gesichter und Geschichten: Wir zeigen, wie Solidarität im Alltag
-              gelebt wird.
-            </li>
-            <li>
-              Sich vor Ort zusammentun: Wir erleichtern den Anschluss an
-              Regionalgruppen.
-            </li>
-            <li>Aktivitäten der Kampagne: Das Bündnis geht auf die Straße</li>
-          </ul>
-          Gleichzeitig ist die Kampagne ein Dach für sowieso geplante
-          Demonstrationen und Aktionen der{" "}
-          <strong>Bündnis-Organisationen</strong>.
-          <br />
-          <br />
-          Sie positionieren sich damit gemeinsam, für welche Solidarität sie
-          streiten und machen sich gemeinsam hörbar.
-          <ul className="list-disc pl-3 my-2">
-            <li>
-              Organisationen gehen ins Bündnis: Ein Dach für eigene Kampagnen
-            </li>
-          </ul>
+          <p>
+            Unseren Protest tragen wir in die &Ouml;ffentlichkeit und auf die
+            Stra&szlig;e.
+          </p>
+          <p>
+            Die Kampagne bietet{" "}
+            <strong>
+              ein Dach f&uuml;r sowieso geplante Demonstrationen und Aktionen
+              der B&uuml;ndnis-Organisationen.
+            </strong>
+          </p>
+          <p>
+            Gleichzeitig bietet sie interessierten Personen{" "}
+            <strong>viele M&ouml;glichkeiten zum Mitmachen:</strong> neben
+            Print-Material und Online-Tools die Option, sich auch vor Ort
+            zusammenzuschlie&szlig;en und aktiv zu werden.
+          </p>
+        </div>
+
+        {/* REGIONALE AKTIVITÄTEN */}
+        <div className="col-span-10 text-lg uppercase font-bold leading-tight sm:leading-normal">
+          <Stripe fillColor="green" textColor="white" rotationDeg="1.5">
+            DIE KAMPAGNE ALS DACH FÜR EURE DEMOS UND AKTIONEN
+          </Stripe>
+        </div>
+
+        <div className="col-span-9 col-start-3 text-sm">
+          <div className="text-med sm:text-sm">
+            <p>
+              Das Kampagne-Bündnis vereint verschiedener Organisationen,
+              Bewegungen und Netzwerke. Wir beziehen unsere eigenen Kampagnen
+              und Mobilisierungen auf eine <strong>gemeinsame Message</strong>,
+              machen Solidarität konkret an gemeinsamen Zielen. Wir verabreden
+              unser Timing und einen gemeinsamen Aktionsrahmen.
+            </p>
+          </div>
+        </div>
+        <div className="col-span-12">
+          <Image name="Demo_02.jpg" />
         </div>
 
         <div className="col-span-10 text-lg uppercase font-bold leading-tight sm:leading-normal">
@@ -132,26 +142,6 @@ export default ({ slug }) => {
           <div className="text-med sm:text-sm">
             Als Kampagnen-Bündnis rufen wir zu regionalen oder überregionalen,
             corona-verantwortbaren Kundgebungen oder Aktionstagen auf
-          </div>
-        </div>
-
-        <div className="col-span-12">
-          <Image name="Demo_02.jpg" />
-        </div>
-
-        {/* REGIONALE AKTIVITÄTEN */}
-        <div className="col-span-10 text-lg uppercase font-bold leading-tight sm:leading-normal">
-          <Stripe fillColor="green" textColor="white" rotationDeg="1.5">
-            DIE KAMPAGNE ALS DACH FÜR EURE DEMOS UND AKTIONEN
-          </Stripe>
-        </div>
-        <div className="col-span-9 col-start-3 text-sm">
-          <div className="text-med sm:text-sm">
-            Das Kampagne-Bündnis vereint verschiedener Organisationen,
-            Bewegungen und Netzwerke. Wir beziehen unsere eigenen Kampagnen und
-            Mobilisierungen auf eine gemeinsame Message, machen Solidarität
-            konkret an gemeinsamen Zielen. Wir verabreden unser Timing und einen
-            gemeinsamen Aktionsrahmen.
           </div>
         </div>
       </div>

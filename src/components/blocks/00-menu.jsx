@@ -26,9 +26,7 @@ export default () => {
             boxShadow: "10px 10px 10px rgba(0, 0, 0, 0.25)",
           }}
         >
-          <div
-            className="overflow-y-scroll flex-1"
-          >
+          <div className="overflow-y-scroll flex-1">
             <h3 className="leading-tight mb-2 uppercase font-bold text-md text-black">
               <Stripe fillColor="blue" textColor="white" rotationDeg="-0.8">
                 Wir machen einen Vorschlag –
@@ -39,64 +37,92 @@ export default () => {
               </Stripe>
             </h3>
             <div className="text-base text-black">
-              Diese Homepage soll einen Kampagnen-Vorschlag veranschaulichen, um
-              Organisationen und Netzwerke zum Mitmachen einzuladen. <br />
-              <br />
-              Die Page geht so nicht nach außen, sondern ist ein Modell zur
-              Illustration! Die hier genannten Ziele, Symbolik, Methoden und
-              Tools kommen aus vielen Diskussionen, über die Konkretisierung
-              entscheidet aber das Kampagnen-Bündnis, wenn es startet.
-              <br />
-              <br />
-              Der Vorschlag kommt aus der Plattform solidarische Transformation.
-              Die Plattform trifft sich seit April 2020 in einem breiten
-              Spektrum von Organisationen. Unser Thema in der Coronakrise: Wie
-              können wir jetzt mit einer solidarischen, emanzipatorischen
-              Position einen offensiven, anschlussfähigen Gegenentwurf bieten
-              sowohl zur herrschenden Politik des „Zurück zur Normalität“ als
-              auch zur rechten Mobilisierung? <br />
-              <br />
-              Wir schlagen vor, Sorge und Solidarität in den Mittelpunkt einer
-              Kampagne zu stellen, verstanden als soziale und ökologische
-              Verantwortung. Wir sehen darin Potential für eine Erzählung, die
-              die gerade in der Coronazeit Impulse unterschiedlicher Bewegungen
-              und Organisationen verbindet und sie dadurch sichtbarer macht.
-              <br />
-              <br />
-              Solidarität und Sorge müssen an exemplarischen, konkreten
-              Auseinandersetzungen festgemacht werden. Wir nennen hier einige
-              Beispiele, andere sind vorstellbar. Wichtig scheint uns aber, nur
-              wenige, besonders prägnante politische Ziele zu nennen, um an
-              ihnen die Erzählung der Solidarität zu konkretisieren. <br />
-              <br />
-              Damit positionieren wir uns gegen jede ausgrenzende,
-              unsolidarische, zerstörerische Politik. Wir sagen: Solidarisch
-              geht anders!
-              <br />
-              <br />
-              Was können wir erreichen?
+              <p>
+                Diese Homepage soll{" "}
+                <strong>einen Kampagnen-Vorschlag veranschaulichen</strong>, um
+                Organisationen und Netzwerke <strong>zum Mitmachen </strong>
+                einzuladen.
+              </p>
+              <p>
+                <strong>Die Page geht so nicht nach au&szlig;en</strong>,
+                sondern ist ein Modell zur Illustration! Die hier genannten
+                Ziele, Symbolik, Methoden und Tools kommen aus vielen
+                Diskussionen, &uuml;ber die Konkretisierung entscheidet aber das
+                Kampagnen-B&uuml;ndnis, wenn es startet.
+              </p>
+              <p>
+                Die Kampagne bietet{" "}
+                <strong>
+                  ein Dach f&uuml;r sowieso geplante Demonstrationen und
+                  Aktionen
+                </strong>{" "}
+                der B&uuml;ndnis-Organisationen.&nbsp;
+              </p>
+              <p>
+                Gleichzeitig bietet sie interessierten Personen{" "}
+                <strong>viele M&ouml;glichkeiten zum Mitmachen:</strong>{" "}
+                Print-Material, Online-Tools und die Option,{" "}
+                <strong>vor Ort aktiv zu werden.</strong>
+              </p>
+              <p>
+                Der Vorschlag kommt{" "}
+                <strong>aus der Plattform solidarische Transformation.</strong>{" "}
+                Die Plattform trifft sich seit April 2020 in einem breiten
+                Spektrum von Organisationen. Unser Thema in der Coronakrise: Wie
+                k&ouml;nnen wir jetzt mit einer solidarischen,
+                emanzipatorischen&nbsp;Position einen offensiven,
+                anschlussf&auml;higen Gegenentwurf bieten sowohl zur
+                herrschenden Politik des &bdquo;Zurück zur Normalität&ldquo; als
+                auch zur&nbsp;rechten&nbsp;Mobilisierung?
+              </p>
+              <p>
+                Wir schlagen vor, <strong>Sorge und Solidarität</strong> in den
+                Mittelpunkt einer Kampagne zu stellen,{" "}
+                <strong>
+                  verstanden als soziale und ökologische Verantwortung.
+                </strong>
+                &nbsp;Wir sehen darin Potential für eine Erzählung, die die
+                gerade in der Coronazeit Impulse unterschiedlicher Bewegungen
+                und Organisationen verbindet und sie dadurch sichtbarer macht.
+              </p>
+              <p>
+                Solidarität und Sorge m&uuml;ssen{" "}
+                <strong>
+                  an exemplarischen, konkreten Auseinandersetzungen festgemacht{" "}
+                </strong>
+                werden.&nbsp;Wir nennen hier einige Beispiele, andere sind
+                vorstellbar. Wichtig scheint uns aber, nur wenige, besonders
+                pr&auml;gnante politische Ziele zu nennen, um an ihnen die
+                Erz&auml;hlung der Solidarit&auml;t zu konkretisieren.
+              </p>
+              <p>
+                Damit&nbsp;positionieren wir uns{" "}
+                <strong>
+                  gegen jede ausgrenzende, unsolidarische, zerst&ouml;rerische
+                  Politik.
+                </strong>{" "}
+                Wir sagen: <strong>Solidarisch geht anders! </strong>
+              </p>
               <ul className="list-disc pl-3">
                 <li>
-                  eine Diskurs- und Dachkampagne, die soziale und ökologische
-                  Bewegungen/ Organisationen in einer Erzählung verbindet
+                  <strong>eine Diskurs- und Dachkampagne</strong>, die soziale
+                  und &ouml;kologische Bewegungen/ Organisationen&nbsp;in einer
+                  Erz&auml;hlung verbindet.
                 </li>
                 <li>
-                  eine indirekte Intervention in den Bundestagswahlkampf, durch
-                  Betonung von Sorge und Solidarität als Aufgaben staatlicher
-                  Politik, mit konkreten Forderungen/ Zielen.
+                  <strong>
+                    eine indirekte Intervention in den Bundestagswahlkampf
+                  </strong>
+                  , durch Betonung von Sorge und Solidarität als Aufgaben
+                  staatlicher Politik, mit konkreten Forderungen/ Zielen.
                 </li>
                 <li>
-                  einen Beitrag zur Vernetzung und Organisierung interessierter
-                  Personen in Gruppen und Organisationen.
+                  <strong>
+                    einen Beitrag zur Vernetzung und Organisierung
+                  </strong>{" "}
+                  interessierter Personen in&nbsp;Gruppen und Organisationen.
                 </li>
               </ul>
-              Das Kampagne-Bündnis bietet dazu Material, Onlinetools und
-              gemeinsame Aktivitäten an. Die Kampagne lebt besonders durch
-              Regionalgruppen teilnehmender Organisationen. Und ist nicht als
-              Alternative, sondern als „Dacherzählung“ sowieso geplanter
-              Kampagnen gedacht.
-              <br />
-              <br />
               <h3 className="leading-tight mb-2 uppercase font-bold text-md text-black">
                 <Stripe fillColor="red" textColor="white" rotationDeg="0.2">
                   Seid Ihr dabei?
@@ -151,7 +177,7 @@ export default () => {
             <li className="inline mx-1">
               <AnchorLink
                 href={`#${item.slug}`}
-                className="px-2 py-1 rounded-lg uppercase hover:text-black text-black font-bold transitions-all duration-200 ease-all"
+                className="px-2 py-1 rounded-lg uppercase hover:text-white text-black font-bold transitions-all duration-200 ease-all"
               >
                 {item.label}
               </AnchorLink>
