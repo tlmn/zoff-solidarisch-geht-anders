@@ -6,7 +6,7 @@ import Stripe from "../stripe";
 
 export default ({ slug }) => (
   <Div100vh>
-    <div className="border-9 border-yellow h-screen" id={slug}>
+    <div className="border-8 sm:border-9 border-yellow h-screen" id={slug}>
       <Carousel loop auto>
         <div style={{ height: "100%" }}>
           <div className="relative h-full">

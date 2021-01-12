@@ -159,7 +159,7 @@ export default () => {
       <div className="fixed bottom-0 ml-2 mb-2" style={{ zIndex: 2000 }}>
         <button
           onClick={() => setShowPopOver(true)}
-          className="text-sm hover:bg-red hover:text-black transition-all ease-in-out duration-200 py-1 px-1 bg-white rounded-lg text-blue inline-block"
+          className="text-med sm:text-sm hover:bg-red hover:text-black transition-all ease-in-out duration-200 py-1 px-1 bg-white rounded-lg text-blue inline-block"
           style={{
             boxShadow:
               "-1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5)",
@@ -185,13 +185,42 @@ export default () => {
           ))}
         </ul>
 
-        <div className="">
-          <div className="bg-blue rounded-full">
-            <div className="hamburger">
-              <div className="hamburger-box">
-                <div className="hamburger-inner"></div>
+        <div
+          className="fixed sm:hidden bottom-0 mb-2 mr-2 right-0 text-right flex items-end flex-col"
+          style={{ zIndex: 4000 }}
+        >
+          <div
+            className=""
+            style={{ display: showMenu === true ? "block" : "none" }}
+          >
+            <ul className="text-right">
+              {menuItems.map((item) => (
+                <li className="mx-1 my-2">
+                  <AnchorLink
+                    href={`#${item.slug}`}
+                    className="inline-block bg-blue hover:bg-red px-2 py-2 rounded-lg uppercase hover:text-white text-white font-bold transitions-all duration-200 ease-all"
+                  >
+                    {item.label}
+                  </AnchorLink>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div
+            className="bg-blue rounded-full block right-0 mb-1 mr-1 "
+            style={{ height: "60px", width: "60px" }}
+          >
+            <button onClick={() => setShowMenu(!showMenu)}>
+              <div
+                className={`hamburger hamburger--squeeze ${
+                  showMenu === true ? `is-active` : ``
+                }`}
+              >
+                <div className="hamburger-box" style={{ marginLeft: "-5px", marginTop: "3px" }}>
+                  <div className="hamburger-inner"></div>
+                </div>
               </div>
-            </div>
+            </button>
           </div>
         </div>
       </div>
