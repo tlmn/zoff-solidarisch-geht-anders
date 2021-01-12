@@ -103,7 +103,8 @@ export default () => {
                 </strong>{" "}
                 Wir sagen: <strong>Solidarisch geht anders! </strong>
               </p>
-              <ul className="list-disc pl-3">
+              <p>Was können wir erreichen?</p>
+              <ul className="list-disc pl-3 py-2">
                 <li>
                   <strong>eine Diskurs- und Dachkampagne</strong>, die soziale
                   und &ouml;kologische Bewegungen/ Organisationen&nbsp;in einer
@@ -216,7 +217,10 @@ export default () => {
                   showMenu === true ? `is-active` : ``
                 }`}
               >
-                <div className="hamburger-box" style={{ marginLeft: "-5px", marginTop: "3px" }}>
+                <div
+                  className="hamburger-box"
+                  style={{ marginLeft: "-5px", marginTop: "3px" }}
+                >
                   <div className="hamburger-inner"></div>
                 </div>
               </div>
