@@ -114,7 +114,7 @@ export default ({ slug }) => (
         </div>
         <div style={{ height: "100%" }}>
           <div className="relative h-full">
-            <Image name="04-4.jpg" className="h-full" />
+            <Image name="04-5.jpg" className="h-full" />
             <div
               className="absolute top-0 left-0 z-20 h-full"
               style={{
