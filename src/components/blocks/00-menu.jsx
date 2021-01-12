@@ -177,7 +177,7 @@ export default () => {
             <li className="inline mx-1">
               <AnchorLink
                 href={`#${item.slug}`}
-                className="px-2 py-1 rounded-lg uppercase hover:text-white text-black font-bold transitions-all duration-200 ease-all"
+                className="px-1 py-1 rounded-lg uppercase hover:text-white text-black font-bold transitions-all duration-200 ease-all"
               >
                 {item.label}
               </AnchorLink>
@@ -207,7 +207,7 @@ export default () => {
             </ul>
           </div>
           <div
-            className="bg-blue rounded-full block right-0 mb-1 mr-1 "
+            className="bg-red rounded-full block right-0 mb-1 mr-1 "
             style={{ height: "60px", width: "60px" }}
           >
             <button onClick={() => setShowMenu(!showMenu)}>
