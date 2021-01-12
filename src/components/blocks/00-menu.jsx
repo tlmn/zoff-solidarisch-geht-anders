@@ -11,7 +11,7 @@ export default () => {
   return (
     <>
       <div
-        className="fixed w-screen h-screen flex justify-center items-center"
+        className="fixed w-screen h-screen flex justify-center items-center disclaimer"
         style={{
           display: showPopOver === true ? "block" : "none",
           zIndex: 3000,
@@ -19,7 +19,7 @@ export default () => {
         }}
       >
         <div
-          className="bg-white rounded-xl container m-4 p-3 flex justify-center flex-row items-center grid-12"
+          className="bg-white rounded-xl container m-4 p-3 flex justify-center flex-col items-center"
           style={{
             maxHeight: "80vh",
             maxWidth: "90vw",
@@ -27,12 +27,11 @@ export default () => {
           }}
         >
           <div
-            className="col-span-12 sm:col-span-10 sm:col-start-2 overflow-y-scroll"
-            style={{ maxHeight: "400px" }}
+            className="overflow-y-scroll flex-1"
           >
             <h3 className="leading-tight mb-2 uppercase font-bold text-md text-black">
               <Stripe fillColor="blue" textColor="white" rotationDeg="-0.8">
-                Wir machen einen Vorschlag
+                Wir machen einen Vorschlag –
               </Stripe>
               <br />
               <Stripe fillColor="blue" textColor="white" rotationDeg="0.6">
@@ -120,10 +119,10 @@ export default () => {
               </Stripe>
             </div>
           </div>
-          <div className="col-span-12 flex justify-center">
+          <div className="flex justify-center">
             <button
               onClick={() => setShowPopOver(false)}
-              className="text-sm font-bold hover:bg-red hover:text-black transition-all ease-in-out duration-200 py-1 px-1 bg-red uppercase rounded-lg text-white inline-block"
+              className="text-sm font-bold hover:bg-red hover:text-black transition-all ease-in-out duration-200 py-1 mt-2 px-1 bg-red uppercase rounded-lg text-white inline-block"
             >
               Schließen
             </button>
