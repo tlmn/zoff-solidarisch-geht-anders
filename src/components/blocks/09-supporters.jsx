@@ -31,9 +31,11 @@ export default ({ slug }) => {
           <br />
           <strong>Die Plattform solidarische Transformation</strong> diskutiert
           zur Zeit den Kampagnenvorschlag und bezieht weitere Organisationen mit
-          ein. An den Treffen der Plattform haben in den vergangenen Monaten
-          diese Organisationen teilgenommen (teilweise mandatiert):
-          <ul className="list-disc pl-3">
+          ein. <br />
+          <br />
+          An den Treffen der Plattform haben in den vergangenen Monaten diese
+          Organisationen teilgenommen (teilweise mandatiert):
+          <ul className="list-disc pl-3 my-3">
             <li>350.org</li>
             <li>afrique-europe-interact</li>
             <li>Attac</li>
