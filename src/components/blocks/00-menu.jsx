@@ -19,7 +19,7 @@ export default () => {
         }}
       >
         <div
-          className="bg-white rounded-xl container m-4 p-3 flex justify-center flex-col items-center"
+          className="bg-white rounded-xl container m-1 sm:m-4 p-3 flex justify-center flex-col items-center"
           style={{
             maxHeight: "80vh",
             maxWidth: "90vw",
