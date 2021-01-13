@@ -49,7 +49,7 @@ export default ({ slug }) => (
           <div className="font-bold col-span-12 col-start-1 sm:col-span-10 sm:col-start-2 text-sm sm:text-md">
             Wir zeigen gemeinsam:{" "}
             <Stripe fillColor="white" textColor="black" rotationDeg="-0.8">
-              Solidarität geht anders.
+              Solidarisch geht anders.
             </Stripe>
           </div>
         </div>
