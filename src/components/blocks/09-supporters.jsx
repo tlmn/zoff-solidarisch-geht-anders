@@ -32,7 +32,6 @@ export default ({ slug }) => {
             <li>Ende Gel&auml;nde</li>
             <li>Fridays For Future</li>
             <li>Gemeinsam gegen die Tierindustrie</li>
-            <li>IG Metall</li>
             <li>Initiative Offene Gesellschaft</li>
             <li>Interventionistische Linke</li>
             <li>Klimaallianz</li>
