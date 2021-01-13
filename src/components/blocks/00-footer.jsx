@@ -1,6 +1,4 @@
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import React from "react";
-import menuItems from "../../config/config";
 
 export default () => (
   <div className="bg-red mb-5">

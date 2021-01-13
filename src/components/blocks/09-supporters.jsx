@@ -1,19 +1,7 @@
-import Image from "../image";
 import React from "react";
 import Stripe from "../stripe";
 
 export default ({ slug }) => {
-  const supporters = [
-    "Attac.jpg",
-    "Campact.jpg",
-    "DieOffeneGesellschaft.jpg",
-    "EndeGelaende.jpg",
-    "FridayForFuture.jpg",
-    "MehrDemokratie.jpg",
-    "NaturFreunde.jpg",
-    "Seebruecke.jpg",
-    "verdi.jpg",
-  ];
   return (
     <div className="bg-white py-4" id={slug}>
       <div className="container grid-12">

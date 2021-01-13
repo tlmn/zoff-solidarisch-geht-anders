@@ -1,5 +1,4 @@
 import Div100vh from "react-div-100vh";
-import LogoText from "../../assets/svg/logo-text";
 import React from "react";
 import Spikes from "../../assets/svg/spikes";
 
