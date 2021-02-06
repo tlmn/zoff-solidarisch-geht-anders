@@ -40,7 +40,6 @@ export default ({ slug }) => {
             <li>Netzwerk Care Revolution</li>
             <li>Netzwek Polylux</li>
             <li>NOW</li>
-            <li>Parit&auml;tischer Gesamtverband</li>
             <li>Robin Wood</li>
             <li>Seebr&uuml;cke</li>
             <li>Umweltistitut M&uuml;nchen</li>
